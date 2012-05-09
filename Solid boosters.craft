@@ -1,0 +1,1623 @@
+ship = Solid boosters
+version = 0.14.4
+{
+	part = mk1pod_4294700280
+	pos = -0.5831487,8.164182,-0.003262326
+	rot = 0,0,0,1
+	istg = 1
+	dstg = 0
+	sidx = 0
+	sqor = 1
+	attm = 0
+	link = solidBooster_4294700248
+	link = parachuteSingle_4294698304
+	attN = bottom, solidBooster_4294700248
+	attN = top, parachuteSingle_4294698304
+}
+{
+	part = solidBooster_4294700248
+	pos = -0.5831487,6.83605,-0.003262326
+	rot = 0,0,0,1
+	istg = 1
+	dstg = 0
+	sidx = 1
+	sqor = 1
+	attm = 0
+	link = radialDecoupler_4294700200
+	link = radialDecoupler_4294700150
+	link = radialDecoupler_4294700100
+	link = radialDecoupler_4294700050
+	link = radialDecoupler_4294700000
+	link = radialDecoupler_4294699950
+	attN = top, mk1pod_4294700280
+}
+{
+	part = radialDecoupler_4294700200
+	pos = -0.9954454,6.668384,-0.2413019
+	rot = 0,0.258819,0,-0.9659259
+	istg = 2
+	dstg = 1
+	sidx = 0
+	sqor = 2
+	attm = 1
+	link = solidBooster_4294699900
+	sym = radialDecoupler_4294699950
+	sym = radialDecoupler_4294700150
+	sym = radialDecoupler_4294700100
+	sym = radialDecoupler_4294700050
+	sym = radialDecoupler_4294700000
+	srfN = srfAttach, solidBooster_4294700248
+}
+{
+	part = radialDecoupler_4294700150
+	pos = -0.9954454,6.668384,0.2347773
+	rot = 0,-0.2588192,0,-0.9659259
+	istg = 2
+	dstg = 1
+	sidx = 1
+	sqor = 2
+	attm = 1
+	link = solidBooster_4294699852
+	sym = radialDecoupler_4294699950
+	sym = radialDecoupler_4294700200
+	sym = radialDecoupler_4294700100
+	sym = radialDecoupler_4294700050
+	sym = radialDecoupler_4294700000
+	srfN = srfAttach, solidBooster_4294700248
+}
+{
+	part = radialDecoupler_4294700100
+	pos = -0.5831487,6.668384,0.4728168
+	rot = 0,-0.7071069,0,-0.7071067
+	istg = 2
+	dstg = 1
+	sidx = 2
+	sqor = 2
+	attm = 1
+	link = solidBooster_4294699804
+	sym = radialDecoupler_4294699950
+	sym = radialDecoupler_4294700200
+	sym = radialDecoupler_4294700150
+	sym = radialDecoupler_4294700050
+	sym = radialDecoupler_4294700000
+	srfN = srfAttach, solidBooster_4294700248
+}
+{
+	part = radialDecoupler_4294700050
+	pos = -0.170852,6.668384,0.2347772
+	rot = 0,-0.9659259,0,-0.2588189
+	istg = 2
+	dstg = 1
+	sidx = 3
+	sqor = 2
+	attm = 1
+	link = solidBooster_4294699756
+	sym = radialDecoupler_4294699950
+	sym = radialDecoupler_4294700200
+	sym = radialDecoupler_4294700150
+	sym = radialDecoupler_4294700100
+	sym = radialDecoupler_4294700000
+	srfN = srfAttach, solidBooster_4294700248
+}
+{
+	part = radialDecoupler_4294700000
+	pos = -0.170852,6.668384,-0.2413019
+	rot = 0,-0.9659259,0,0.2588191
+	istg = 2
+	dstg = 1
+	sidx = 4
+	sqor = 2
+	attm = 1
+	link = solidBooster_4294699708
+	sym = radialDecoupler_4294699950
+	sym = radialDecoupler_4294700200
+	sym = radialDecoupler_4294700150
+	sym = radialDecoupler_4294700100
+	sym = radialDecoupler_4294700050
+	srfN = srfAttach, solidBooster_4294700248
+}
+{
+	part = radialDecoupler_4294699950
+	pos = -0.5831487,6.668384,-0.4793415
+	rot = 0,0.7071068,0,-0.7071068
+	istg = 2
+	dstg = 1
+	sidx = 5
+	sqor = 2
+	attm = 1
+	link = solidBooster_4294699660
+	sym = radialDecoupler_4294700200
+	sym = radialDecoupler_4294700150
+	sym = radialDecoupler_4294700100
+	sym = radialDecoupler_4294700050
+	sym = radialDecoupler_4294700000
+	srfN = srfAttach, solidBooster_4294700248
+}
+{
+	part = solidBooster_4294699900
+	pos = -1.660826,6.437739,-0.6254593
+	rot = 0,0.8660254,0,-0.5000002
+	istg = 3
+	dstg = 2
+	sidx = 0
+	sqor = 3
+	attm = 1
+	link = radialDecoupler_4294699612
+	link = parachuteSingle_4294698224
+	link = strutConnector_4294697448
+	link = strutConnector_4294697160
+	sym = solidBooster_4294699660
+	sym = solidBooster_4294699852
+	sym = solidBooster_4294699804
+	sym = solidBooster_4294699756
+	sym = solidBooster_4294699708
+	srfN = srfAttach, radialDecoupler_4294700200
+	attN = top, parachuteSingle_4294698224
+}
+{
+	part = solidBooster_4294699852
+	pos = -1.660825,6.437739,0.618935
+	rot = 0,0.5,0,-0.8660256
+	istg = 3
+	dstg = 2
+	sidx = 1
+	sqor = 3
+	attm = 1
+	link = radialDecoupler_4294699562
+	link = parachuteSingle_4294698064
+	link = strutConnector_4294697256
+	link = strutConnector_4294697112
+	sym = solidBooster_4294699660
+	sym = solidBooster_4294699900
+	sym = solidBooster_4294699804
+	sym = solidBooster_4294699756
+	sym = solidBooster_4294699708
+	srfN = srfAttach, radialDecoupler_4294700150
+	attN = top, parachuteSingle_4294698064
+}
+{
+	part = solidBooster_4294699804
+	pos = -0.5831482,6.437739,1.241135
+	rot = 0,-1.685874E-07,0,-1
+	istg = 3
+	dstg = 2
+	sidx = 2
+	sqor = 3
+	attm = 1
+	link = radialDecoupler_4294699512
+	link = parachuteSingle_4294698184
+	link = strutConnector_4294697400
+	link = strutConnector_4294696968
+	sym = solidBooster_4294699660
+	sym = solidBooster_4294699900
+	sym = solidBooster_4294699852
+	sym = solidBooster_4294699756
+	sym = solidBooster_4294699708
+	srfN = srfAttach, radialDecoupler_4294700100
+	attN = top, parachuteSingle_4294698184
+}
+{
+	part = solidBooster_4294699756
+	pos = 0.4945338,6.437739,0.6189377
+	rot = 0,-0.5000002,0,-0.8660254
+	istg = 3
+	dstg = 2
+	sidx = 3
+	sqor = 3
+	attm = 1
+	link = radialDecoupler_4294699462
+	link = parachuteSingle_4294698144
+	link = strutConnector_4294697352
+	link = strutConnector_4294697064
+	sym = solidBooster_4294699660
+	sym = solidBooster_4294699900
+	sym = solidBooster_4294699852
+	sym = solidBooster_4294699804
+	sym = solidBooster_4294699708
+	srfN = srfAttach, radialDecoupler_4294700050
+	attN = top, parachuteSingle_4294698144
+}
+{
+	part = solidBooster_4294699708
+	pos = 0.4945326,6.437739,-0.6254616
+	rot = 0,-0.8660255,0,-0.5
+	istg = 3
+	dstg = 2
+	sidx = 4
+	sqor = 3
+	attm = 1
+	link = radialDecoupler_4294699412
+	link = parachuteSingle_4294698104
+	link = strutConnector_4294697304
+	link = strutConnector_4294697016
+	sym = solidBooster_4294699660
+	sym = solidBooster_4294699900
+	sym = solidBooster_4294699852
+	sym = solidBooster_4294699804
+	sym = solidBooster_4294699756
+	srfN = srfAttach, radialDecoupler_4294700000
+	attN = top, parachuteSingle_4294698104
+}
+{
+	part = solidBooster_4294699660
+	pos = -0.5831488,6.437739,-1.24766
+	rot = 0,1,0,-8.42937E-08
+	istg = 3
+	dstg = 2
+	sidx = 5
+	sqor = 3
+	attm = 1
+	link = radialDecoupler_4294699362
+	link = parachuteSingle_4294698264
+	link = strutConnector_4294697496
+	link = strutConnector_4294697208
+	sym = solidBooster_4294699900
+	sym = solidBooster_4294699852
+	sym = solidBooster_4294699804
+	sym = solidBooster_4294699756
+	sym = solidBooster_4294699708
+	srfN = srfAttach, radialDecoupler_4294699950
+	attN = top, parachuteSingle_4294698264
+}
+{
+	part = radialDecoupler_4294699612
+	pos = -2.074555,6.242482,-0.8643261
+	rot = 0,0.258819,0,-0.9659259
+	istg = 4
+	dstg = 3
+	sidx = 0
+	sqor = 4
+	attm = 1
+	link = solidBooster_4294699312
+	sym = radialDecoupler_4294699362
+	sym = radialDecoupler_4294699562
+	sym = radialDecoupler_4294699512
+	sym = radialDecoupler_4294699462
+	sym = radialDecoupler_4294699412
+	srfN = srfAttach, solidBooster_4294699900
+}
+{
+	part = radialDecoupler_4294699562
+	pos = -2.074555,6.242482,0.8578021
+	rot = 0,-0.2588192,0,-0.9659259
+	istg = 4
+	dstg = 3
+	sidx = 1
+	sqor = 4
+	attm = 1
+	link = solidBooster_4294699264
+	sym = radialDecoupler_4294699362
+	sym = radialDecoupler_4294699612
+	sym = radialDecoupler_4294699512
+	sym = radialDecoupler_4294699462
+	sym = radialDecoupler_4294699412
+	srfN = srfAttach, solidBooster_4294699852
+}
+{
+	part = radialDecoupler_4294699512
+	pos = -0.583148,6.242482,1.718869
+	rot = 0,-0.7071069,0,-0.7071067
+	istg = 4
+	dstg = 3
+	sidx = 2
+	sqor = 4
+	attm = 1
+	link = solidBooster_4294699216
+	sym = radialDecoupler_4294699362
+	sym = radialDecoupler_4294699612
+	sym = radialDecoupler_4294699562
+	sym = radialDecoupler_4294699462
+	sym = radialDecoupler_4294699412
+	srfN = srfAttach, solidBooster_4294699804
+}
+{
+	part = radialDecoupler_4294699462
+	pos = 0.9082651,6.242482,0.8578053
+	rot = 0,-0.965926,0,-0.2588188
+	istg = 4
+	dstg = 3
+	sidx = 3
+	sqor = 4
+	attm = 1
+	link = solidBooster_4294699168
+	sym = radialDecoupler_4294699362
+	sym = radialDecoupler_4294699612
+	sym = radialDecoupler_4294699562
+	sym = radialDecoupler_4294699512
+	sym = radialDecoupler_4294699412
+	srfN = srfAttach, solidBooster_4294699756
+}
+{
+	part = radialDecoupler_4294699412
+	pos = 0.9082625,6.242482,-0.864329
+	rot = 0,-0.965926,0,0.2588191
+	istg = 4
+	dstg = 3
+	sidx = 4
+	sqor = 4
+	attm = 1
+	link = solidBooster_4294699120
+	sym = radialDecoupler_4294699362
+	sym = radialDecoupler_4294699612
+	sym = radialDecoupler_4294699562
+	sym = radialDecoupler_4294699512
+	sym = radialDecoupler_4294699462
+	srfN = srfAttach, solidBooster_4294699708
+}
+{
+	part = radialDecoupler_4294699362
+	pos = -0.5831488,6.242482,-1.725393
+	rot = 0,0.7071068,0,-0.7071068
+	istg = 4
+	dstg = 3
+	sidx = 5
+	sqor = 4
+	attm = 1
+	link = solidBooster_4294699072
+	sym = radialDecoupler_4294699612
+	sym = radialDecoupler_4294699562
+	sym = radialDecoupler_4294699512
+	sym = radialDecoupler_4294699462
+	sym = radialDecoupler_4294699412
+	srfN = srfAttach, solidBooster_4294699660
+}
+{
+	part = solidBooster_4294699312
+	pos = -2.74047,6.241176,-1.248793
+	rot = 0,0.8660254,0,-0.5000001
+	istg = 5
+	dstg = 4
+	sidx = 0
+	sqor = 5
+	attm = 1
+	link = stackTriCoupler_4294698904
+	link = strutConnector_4294696872
+	sym = solidBooster_4294699072
+	sym = solidBooster_4294699264
+	sym = solidBooster_4294699216
+	sym = solidBooster_4294699168
+	sym = solidBooster_4294699120
+	srfN = srfAttach, radialDecoupler_4294699612
+	attN = top, stackTriCoupler_4294698904
+}
+{
+	part = solidBooster_4294699264
+	pos = -2.740465,6.241176,1.242266
+	rot = 0,0.5,0,-0.8660256
+	istg = 5
+	dstg = 4
+	sidx = 1
+	sqor = 5
+	attm = 1
+	link = stackTriCoupler_4294699000
+	link = strutConnector_4294696824
+	sym = solidBooster_4294699072
+	sym = solidBooster_4294699312
+	sym = solidBooster_4294699216
+	sym = solidBooster_4294699168
+	sym = solidBooster_4294699120
+	srfN = srfAttach, radialDecoupler_4294699562
+	attN = top, stackTriCoupler_4294699000
+}
+{
+	part = solidBooster_4294699216
+	pos = -0.5831476,6.241176,2.487804
+	rot = 0,-1.685874E-07,0,-1
+	istg = 5
+	dstg = 4
+	sidx = 2
+	sqor = 5
+	attm = 1
+	link = stackTriCoupler_4294698976
+	link = strutConnector_4294696680
+	sym = solidBooster_4294699072
+	sym = solidBooster_4294699312
+	sym = solidBooster_4294699264
+	sym = solidBooster_4294699168
+	sym = solidBooster_4294699120
+	srfN = srfAttach, radialDecoupler_4294699512
+	attN = top, stackTriCoupler_4294698976
+}
+{
+	part = solidBooster_4294699168
+	pos = 1.574183,6.241176,1.242274
+	rot = 0,-0.5000001,0,-0.8660256
+	istg = 5
+	dstg = 4
+	sidx = 3
+	sqor = 5
+	attm = 1
+	link = stackTriCoupler_4294698952
+	link = strutConnector_4294696776
+	sym = solidBooster_4294699072
+	sym = solidBooster_4294699312
+	sym = solidBooster_4294699264
+	sym = solidBooster_4294699216
+	sym = solidBooster_4294699120
+	srfN = srfAttach, radialDecoupler_4294699462
+	attN = top, stackTriCoupler_4294698952
+}
+{
+	part = solidBooster_4294699120
+	pos = 1.574179,6.241176,-1.248797
+	rot = 0,-0.8660256,0,-0.4999999
+	istg = 5
+	dstg = 4
+	sidx = 4
+	sqor = 5
+	attm = 1
+	link = stackTriCoupler_4294698928
+	link = strutConnector_4294696728
+	sym = solidBooster_4294699072
+	sym = solidBooster_4294699312
+	sym = solidBooster_4294699264
+	sym = solidBooster_4294699216
+	sym = solidBooster_4294699168
+	srfN = srfAttach, radialDecoupler_4294699412
+	attN = top, stackTriCoupler_4294698928
+}
+{
+	part = solidBooster_4294699072
+	pos = -0.5831489,6.241176,-2.494327
+	rot = 0,1,0,-8.42937E-08
+	istg = 5
+	dstg = 4
+	sidx = 5
+	sqor = 5
+	attm = 1
+	link = stackTriCoupler_4294699024
+	link = strutConnector_4294696920
+	sym = solidBooster_4294699312
+	sym = solidBooster_4294699264
+	sym = solidBooster_4294699216
+	sym = solidBooster_4294699168
+	sym = solidBooster_4294699120
+	srfN = srfAttach, radialDecoupler_4294699362
+	attN = top, stackTriCoupler_4294699024
+}
+{
+	part = stackTriCoupler_4294699024
+	pos = -0.6312976,7.53183,-3.112164
+	rot = 0,-0.4999994,0,0.8660259
+	istg = 5
+	dstg = 4
+	sidx = 6
+	sqor = 5
+	attm = 0
+	link = solidBooster_4294698880
+	link = solidBooster_4294698352
+	link = parachuteSingle_4294697984
+	sym = stackTriCoupler_4294698904
+	sym = stackTriCoupler_4294699000
+	sym = stackTriCoupler_4294698976
+	sym = stackTriCoupler_4294698952
+	sym = stackTriCoupler_4294698928
+	attN = top, parachuteSingle_4294697984
+	attN = bottom01, solidBooster_4294698880
+	attN = bottom02, solidBooster_4294699072
+	attN = bottom03, solidBooster_4294698352
+}
+{
+	part = stackTriCoupler_4294699000
+	pos = -3.251452,7.53183,1.592882
+	rot = 0,0.5,0,0.8660256
+	istg = 5
+	dstg = 4
+	sidx = 7
+	sqor = 5
+	attm = 0
+	link = solidBooster_4294698832
+	link = solidBooster_4294698544
+	link = parachuteSingle_4294697824
+	sym = stackTriCoupler_4294698904
+	sym = stackTriCoupler_4294699024
+	sym = stackTriCoupler_4294698976
+	sym = stackTriCoupler_4294698952
+	sym = stackTriCoupler_4294698928
+	attN = top, parachuteSingle_4294697824
+	attN = bottom01, solidBooster_4294698832
+	attN = bottom02, solidBooster_4294699264
+	attN = bottom03, solidBooster_4294698544
+}
+{
+	part = stackTriCoupler_4294698976
+	pos = -0.5349988,7.53183,3.10564
+	rot = 0,0.8660256,0,0.5
+	istg = 5
+	dstg = 4
+	sidx = 8
+	sqor = 5
+	attm = 0
+	link = solidBooster_4294698784
+	link = solidBooster_4294698496
+	link = parachuteSingle_4294697944
+	sym = stackTriCoupler_4294698904
+	sym = stackTriCoupler_4294699024
+	sym = stackTriCoupler_4294699000
+	sym = stackTriCoupler_4294698952
+	sym = stackTriCoupler_4294698928
+	attN = top, parachuteSingle_4294697944
+	attN = bottom01, solidBooster_4294698784
+	attN = bottom02, solidBooster_4294699216
+	attN = bottom03, solidBooster_4294698496
+}
+{
+	part = stackTriCoupler_4294698952
+	pos = 2.13333,7.53183,1.5095
+	rot = 0,1,0,4.133565E-09
+	istg = 5
+	dstg = 4
+	sidx = 9
+	sqor = 5
+	attm = 0
+	link = solidBooster_4294698736
+	link = solidBooster_4294698448
+	link = parachuteSingle_4294697904
+	sym = stackTriCoupler_4294698904
+	sym = stackTriCoupler_4294699024
+	sym = stackTriCoupler_4294699000
+	sym = stackTriCoupler_4294698976
+	sym = stackTriCoupler_4294698928
+	attN = top, parachuteSingle_4294697904
+	attN = bottom01, solidBooster_4294698736
+	attN = bottom02, solidBooster_4294699168
+	attN = bottom03, solidBooster_4294698448
+}
+{
+	part = stackTriCoupler_4294698928
+	pos = 2.085171,7.53183,-1.599416
+	rot = 0,0.8660256,0,-0.4999999
+	istg = 5
+	dstg = 4
+	sidx = 10
+	sqor = 5
+	attm = 0
+	link = solidBooster_4294698688
+	link = solidBooster_4294698400
+	link = parachuteSingle_4294697864
+	sym = stackTriCoupler_4294698904
+	sym = stackTriCoupler_4294699024
+	sym = stackTriCoupler_4294699000
+	sym = stackTriCoupler_4294698976
+	sym = stackTriCoupler_4294698952
+	attN = top, parachuteSingle_4294697864
+	attN = bottom01, solidBooster_4294698688
+	attN = bottom02, solidBooster_4294699120
+	attN = bottom03, solidBooster_4294698400
+}
+{
+	part = stackTriCoupler_4294698904
+	pos = -3.299608,7.53183,-1.516013
+	rot = 0,-5.964046E-08,0,1
+	istg = 5
+	dstg = 4
+	sidx = 11
+	sqor = 5
+	attm = 0
+	link = solidBooster_4294698640
+	link = solidBooster_4294698592
+	link = parachuteSingle_4294698024
+	sym = stackTriCoupler_4294699024
+	sym = stackTriCoupler_4294699000
+	sym = stackTriCoupler_4294698976
+	sym = stackTriCoupler_4294698952
+	sym = stackTriCoupler_4294698928
+	attN = top, parachuteSingle_4294698024
+	attN = bottom01, solidBooster_4294698640
+	attN = bottom02, solidBooster_4294699312
+	attN = bottom03, solidBooster_4294698592
+}
+{
+	part = solidBooster_4294698880
+	pos = -1.158782,6.241176,-3.491349
+	rot = 0,-0.5000001,0,0.8660255
+	istg = 5
+	dstg = 4
+	sidx = 12
+	sqor = 5
+	attm = 0
+	link = R8winglet_4294696588
+	sym = solidBooster_4294698640
+	sym = solidBooster_4294698832
+	sym = solidBooster_4294698784
+	sym = solidBooster_4294698736
+	sym = solidBooster_4294698688
+	attN = top, stackTriCoupler_4294699024
+}
+{
+	part = solidBooster_4294698832
+	pos = -3.316088,6.241176,2.239284
+	rot = 0,0.5000004,0,0.8660255
+	istg = 5
+	dstg = 4
+	sidx = 13
+	sqor = 5
+	attm = 0
+	link = R8winglet_4294696544
+	sym = solidBooster_4294698640
+	sym = solidBooster_4294698880
+	sym = solidBooster_4294698784
+	sym = solidBooster_4294698736
+	sym = solidBooster_4294698688
+	attN = top, stackTriCoupler_4294699000
+}
+{
+	part = solidBooster_4294698784
+	pos = -0.00751406,6.241176,3.484827
+	rot = 0,0.866026,0,0.4999992
+	istg = 5
+	dstg = 4
+	sidx = 14
+	sqor = 5
+	attm = 0
+	link = R8winglet_4294696500
+	sym = solidBooster_4294698640
+	sym = solidBooster_4294698880
+	sym = solidBooster_4294698832
+	sym = solidBooster_4294698736
+	sym = solidBooster_4294698688
+	attN = top, stackTriCoupler_4294698976
+}
+{
+	part = solidBooster_4294698736
+	pos = 2.725456,6.241176,1.242276
+	rot = 0,1,0,-5.34401E-08
+	istg = 5
+	dstg = 4
+	sidx = 15
+	sqor = 5
+	attm = 0
+	link = R8winglet_4294696412
+	sym = solidBooster_4294698640
+	sym = solidBooster_4294698880
+	sym = solidBooster_4294698832
+	sym = solidBooster_4294698784
+	sym = solidBooster_4294698688
+	attN = top, stackTriCoupler_4294698952
+}
+{
+	part = solidBooster_4294698688
+	pos = 2.149814,6.241176,-2.245823
+	rot = 0,0.8660255,0,-0.5
+	istg = 5
+	dstg = 4
+	sidx = 16
+	sqor = 5
+	attm = 0
+	link = R8winglet_4294696456
+	sym = solidBooster_4294698640
+	sym = solidBooster_4294698880
+	sym = solidBooster_4294698832
+	sym = solidBooster_4294698784
+	sym = solidBooster_4294698736
+	attN = top, stackTriCoupler_4294698928
+}
+{
+	part = solidBooster_4294698640
+	pos = -3.891732,6.241176,-1.248792
+	rot = 0,8.42937E-08,0,1
+	istg = 5
+	dstg = 4
+	sidx = 17
+	sqor = 5
+	attm = 0
+	link = R8winglet_4294696632
+	sym = solidBooster_4294698880
+	sym = solidBooster_4294698832
+	sym = solidBooster_4294698784
+	sym = solidBooster_4294698736
+	sym = solidBooster_4294698688
+	attN = top, stackTriCoupler_4294698904
+}
+{
+	part = solidBooster_4294698592
+	pos = -3.316098,6.241176,-2.245816
+	rot = 0,0.5,0,0.8660256
+	istg = 5
+	dstg = 4
+	sidx = 18
+	sqor = 5
+	attm = 0
+	link = strutConnector_4294697544
+	link = R8winglet_4294696324
+	sym = solidBooster_4294698352
+	sym = solidBooster_4294698544
+	sym = solidBooster_4294698496
+	sym = solidBooster_4294698448
+	sym = solidBooster_4294698400
+	attN = top, stackTriCoupler_4294698904
+}
+{
+	part = solidBooster_4294698544
+	pos = -3.89172,6.241176,1.242265
+	rot = 0,0.8660256,0,0.5000001
+	istg = 5
+	dstg = 4
+	sidx = 19
+	sqor = 5
+	attm = 0
+	link = strutConnector_4294697736
+	link = R8winglet_4294696280
+	sym = solidBooster_4294698352
+	sym = solidBooster_4294698592
+	sym = solidBooster_4294698496
+	sym = solidBooster_4294698448
+	sym = solidBooster_4294698400
+	attN = top, stackTriCoupler_4294699000
+}
+{
+	part = solidBooster_4294698496
+	pos = -1.158781,6.241176,3.484828
+	rot = 0,1,0,-7.586433E-07
+	istg = 5
+	dstg = 4
+	sidx = 20
+	sqor = 5
+	attm = 0
+	link = strutConnector_4294697688
+	link = R8winglet_4294696236
+	sym = solidBooster_4294698352
+	sym = solidBooster_4294698592
+	sym = solidBooster_4294698544
+	sym = solidBooster_4294698448
+	sym = solidBooster_4294698400
+	attN = top, stackTriCoupler_4294698976
+}
+{
+	part = solidBooster_4294698448
+	pos = 2.149822,6.241176,2.239303
+	rot = 0,0.8660257,0,-0.5000002
+	istg = 5
+	dstg = 4
+	sidx = 21
+	sqor = 5
+	attm = 0
+	link = strutConnector_4294697640
+	link = R8winglet_4294696148
+	sym = solidBooster_4294698352
+	sym = solidBooster_4294698592
+	sym = solidBooster_4294698544
+	sym = solidBooster_4294698496
+	sym = solidBooster_4294698400
+	attN = top, stackTriCoupler_4294698952
+}
+{
+	part = solidBooster_4294698400
+	pos = 2.725447,6.241176,-1.248798
+	rot = 0,0.5000001,0,-0.8660255
+	istg = 5
+	dstg = 4
+	sidx = 22
+	sqor = 5
+	attm = 0
+	link = strutConnector_4294697592
+	link = R8winglet_4294696192
+	sym = solidBooster_4294698352
+	sym = solidBooster_4294698592
+	sym = solidBooster_4294698544
+	sym = solidBooster_4294698496
+	sym = solidBooster_4294698448
+	attN = top, stackTriCoupler_4294698928
+}
+{
+	part = solidBooster_4294698352
+	pos = -0.007515192,6.241176,-3.49135
+	rot = 0,-2.528811E-07,0,1
+	istg = 5
+	dstg = 4
+	sidx = 23
+	sqor = 5
+	attm = 0
+	link = strutConnector_4294697784
+	link = R8winglet_4294696368
+	sym = solidBooster_4294698592
+	sym = solidBooster_4294698544
+	sym = solidBooster_4294698496
+	sym = solidBooster_4294698448
+	sym = solidBooster_4294698400
+	attN = top, stackTriCoupler_4294699024
+}
+{
+	part = parachuteSingle_4294698304
+	pos = -0.5831487,8.569367,-0.003262326
+	rot = 0,0,0,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = 0
+	attm = 0
+	attN = bottom, mk1pod_4294700280
+}
+{
+	part = parachuteSingle_4294698264
+	pos = -0.5831488,7.475274,-1.24766
+	rot = 0,-0.8660255,0,0.5
+	istg = 2
+	dstg = 1
+	sidx = 6
+	sqor = 2
+	attm = 0
+	sym = parachuteSingle_4294698064
+	sym = parachuteSingle_4294698224
+	sym = parachuteSingle_4294698184
+	sym = parachuteSingle_4294698144
+	sym = parachuteSingle_4294698104
+	attN = bottom, solidBooster_4294699660
+}
+{
+	part = parachuteSingle_4294698224
+	pos = -1.660826,7.475274,-0.6254593
+	rot = 0,-0.5000002,0,0.8660254
+	istg = 2
+	dstg = 1
+	sidx = 7
+	sqor = 2
+	attm = 0
+	sym = parachuteSingle_4294698064
+	sym = parachuteSingle_4294698264
+	sym = parachuteSingle_4294698184
+	sym = parachuteSingle_4294698144
+	sym = parachuteSingle_4294698104
+	attN = bottom, solidBooster_4294699900
+}
+{
+	part = parachuteSingle_4294698184
+	pos = -0.5831482,7.475274,1.241136
+	rot = 0,0.5000001,0,0.8660254
+	istg = 2
+	dstg = 1
+	sidx = 8
+	sqor = 2
+	attm = 0
+	sym = parachuteSingle_4294698064
+	sym = parachuteSingle_4294698264
+	sym = parachuteSingle_4294698224
+	sym = parachuteSingle_4294698144
+	sym = parachuteSingle_4294698104
+	attN = bottom, solidBooster_4294699804
+}
+{
+	part = parachuteSingle_4294698144
+	pos = 0.4945343,7.475274,0.6189379
+	rot = 0,0.8660254,0,0.5000001
+	istg = 2
+	dstg = 1
+	sidx = 9
+	sqor = 2
+	attm = 0
+	sym = parachuteSingle_4294698064
+	sym = parachuteSingle_4294698264
+	sym = parachuteSingle_4294698224
+	sym = parachuteSingle_4294698184
+	sym = parachuteSingle_4294698104
+	attN = bottom, solidBooster_4294699756
+}
+{
+	part = parachuteSingle_4294698104
+	pos = 0.4945328,7.475274,-0.6254616
+	rot = 0,1,0,1.017873E-07
+	istg = 2
+	dstg = 1
+	sidx = 10
+	sqor = 2
+	attm = 0
+	sym = parachuteSingle_4294698064
+	sym = parachuteSingle_4294698264
+	sym = parachuteSingle_4294698224
+	sym = parachuteSingle_4294698184
+	sym = parachuteSingle_4294698144
+	attN = bottom, solidBooster_4294699708
+}
+{
+	part = parachuteSingle_4294698064
+	pos = -1.660825,7.475274,0.618935
+	rot = 0,0,0,1
+	istg = 2
+	dstg = 1
+	sidx = 11
+	sqor = 2
+	attm = 0
+	sym = parachuteSingle_4294698264
+	sym = parachuteSingle_4294698224
+	sym = parachuteSingle_4294698184
+	sym = parachuteSingle_4294698144
+	sym = parachuteSingle_4294698104
+	attN = bottom, solidBooster_4294699852
+}
+{
+	part = parachuteSingle_4294698024
+	pos = -3.316098,7.861623,-1.581132
+	rot = 0,-0.5000001,0,0.8660257
+	istg = 4
+	dstg = 3
+	sidx = 6
+	sqor = 4
+	attm = 0
+	sym = parachuteSingle_4294697824
+	sym = parachuteSingle_4294697984
+	sym = parachuteSingle_4294697944
+	sym = parachuteSingle_4294697904
+	sym = parachuteSingle_4294697864
+	attN = bottom, stackTriCoupler_4294698904
+}
+{
+	part = parachuteSingle_4294697984
+	pos = -0.5831494,7.861623,-3.159005
+	rot = 0,-0.8660255,0,0.5000001
+	istg = 4
+	dstg = 3
+	sidx = 7
+	sqor = 4
+	attm = 0
+	sym = parachuteSingle_4294697824
+	sym = parachuteSingle_4294698024
+	sym = parachuteSingle_4294697944
+	sym = parachuteSingle_4294697904
+	sym = parachuteSingle_4294697864
+	attN = bottom, stackTriCoupler_4294699024
+}
+{
+	part = parachuteSingle_4294697944
+	pos = -0.583147,7.861623,3.152481
+	rot = 0,0.5000007,0,0.8660251
+	istg = 4
+	dstg = 3
+	sidx = 8
+	sqor = 4
+	attm = 0
+	sym = parachuteSingle_4294697824
+	sym = parachuteSingle_4294698024
+	sym = parachuteSingle_4294697984
+	sym = parachuteSingle_4294697904
+	sym = parachuteSingle_4294697864
+	attN = bottom, stackTriCoupler_4294698976
+}
+{
+	part = parachuteSingle_4294697904
+	pos = 2.14982,7.861623,1.574617
+	rot = 0,0.8660258,0,0.5000001
+	istg = 4
+	dstg = 3
+	sidx = 9
+	sqor = 4
+	attm = 0
+	sym = parachuteSingle_4294697824
+	sym = parachuteSingle_4294698024
+	sym = parachuteSingle_4294697984
+	sym = parachuteSingle_4294697944
+	sym = parachuteSingle_4294697864
+	attN = bottom, stackTriCoupler_4294698952
+}
+{
+	part = parachuteSingle_4294697864
+	pos = 2.149811,7.861623,-1.581138
+	rot = 0,1,0,1.72721E-07
+	istg = 4
+	dstg = 3
+	sidx = 10
+	sqor = 4
+	attm = 0
+	sym = parachuteSingle_4294697824
+	sym = parachuteSingle_4294698024
+	sym = parachuteSingle_4294697984
+	sym = parachuteSingle_4294697944
+	sym = parachuteSingle_4294697904
+	attN = bottom, stackTriCoupler_4294698928
+}
+{
+	part = parachuteSingle_4294697824
+	pos = -3.316091,7.861623,1.574605
+	rot = 0,-1.129319E-08,0,1
+	istg = 4
+	dstg = 3
+	sidx = 11
+	sqor = 4
+	attm = 0
+	sym = parachuteSingle_4294698024
+	sym = parachuteSingle_4294697984
+	sym = parachuteSingle_4294697944
+	sym = parachuteSingle_4294697904
+	sym = parachuteSingle_4294697864
+	attN = bottom, stackTriCoupler_4294699000
+}
+{
+	part = strutConnector_4294697784
+	pos = 0.3989615,7.037278,-3.256674
+	rot = 0,0.9659259,0,0.2588194
+	istg = 5
+	dstg = 4
+	sidx = 24
+	sqor = 5
+	attm = 1
+	cData = tgt: solidBooster_67; pos: -1.587514,0.03888464,0.1841718; dir: -0.9930438,0.02432322,0.1152055
+	sym = strutConnector_4294697544
+	sym = strutConnector_4294697736
+	sym = strutConnector_4294697688
+	sym = strutConnector_4294697640
+	sym = strutConnector_4294697592
+	srfN = srfAttach, solidBooster_4294698352
+}
+{
+	part = strutConnector_4294697736
+	pos = -3.891721,7.037278,0.7729052
+	rot = 0,0.7071071,0,-0.707107
+	istg = 5
+	dstg = 4
+	sidx = 25
+	sqor = 5
+	attm = 1
+	cData = tgt: solidBooster_7; pos: -1.587496,0.03888464,0.1841688; dir: -0.9930438,0.02432322,0.1152055
+	sym = strutConnector_4294697544
+	sym = strutConnector_4294697784
+	sym = strutConnector_4294697688
+	sym = strutConnector_4294697640
+	sym = strutConnector_4294697592
+	srfN = srfAttach, solidBooster_4294698544
+}
+{
+	part = strutConnector_4294697688
+	pos = -1.565258,7.037278,3.250149
+	rot = 0,0.2588188,0,-0.9659261
+	istg = 5
+	dstg = 4
+	sidx = 26
+	sqor = 5
+	attm = 1
+	cData = tgt: solidBooster_22; pos: -1.587515,0.03888512,0.1841715; dir: -0.9930438,0.02432322,0.1152055
+	sym = strutConnector_4294697544
+	sym = strutConnector_4294697784
+	sym = strutConnector_4294697736
+	sym = strutConnector_4294697640
+	sym = strutConnector_4294697592
+	srfN = srfAttach, solidBooster_4294698496
+}
+{
+	part = strutConnector_4294697640
+	pos = 1.743343,7.037278,2.473987
+	rot = 0,-0.2588193,0,-0.9659262
+	istg = 5
+	dstg = 4
+	sidx = 27
+	sqor = 5
+	attm = 1
+	cData = tgt: solidBooster_37; pos: -1.587528,0.03888464,0.1841759; dir: -0.9930438,0.02432322,0.1152055
+	sym = strutConnector_4294697544
+	sym = strutConnector_4294697784
+	sym = strutConnector_4294697736
+	sym = strutConnector_4294697688
+	sym = strutConnector_4294697592
+	srfN = srfAttach, solidBooster_4294698448
+}
+{
+	part = strutConnector_4294697592
+	pos = 2.725451,7.037278,-0.7794378
+	rot = 0,-0.7071068,0,-0.7071071
+	istg = 5
+	dstg = 4
+	sidx = 28
+	sqor = 5
+	attm = 1
+	cData = tgt: solidBooster_52; pos: -1.587519,0.03888512,0.1841758; dir: -0.9930438,0.02432322,0.1152055
+	sym = strutConnector_4294697544
+	sym = strutConnector_4294697784
+	sym = strutConnector_4294697736
+	sym = strutConnector_4294697688
+	sym = strutConnector_4294697640
+	srfN = srfAttach, solidBooster_4294698400
+}
+{
+	part = strutConnector_4294697544
+	pos = -2.909626,7.037278,-2.480497
+	rot = 0,0.9659262,0,-0.2588192
+	istg = 5
+	dstg = 4
+	sidx = 29
+	sqor = 5
+	attm = 1
+	cData = tgt: solidBooster_82; pos: -1.587508,0.03888416,0.1841701; dir: -0.9930438,0.02432322,0.1152055
+	sym = strutConnector_4294697784
+	sym = strutConnector_4294697736
+	sym = strutConnector_4294697688
+	sym = strutConnector_4294697640
+	sym = strutConnector_4294697592
+	srfN = srfAttach, solidBooster_4294698592
+}
+{
+	part = strutConnector_4294697496
+	pos = -0.1194084,7.136114,-1.123401
+	rot = 0,0.9914449,0,0.1305263
+	istg = 3
+	dstg = 2
+	sidx = 6
+	sqor = 3
+	attm = 1
+	cData = tgt: solidBooster_63; pos: -0.3291211,0.08758068,-0.05234053; dir: -0.9551566,0.2541705,-0.1518985
+	sym = strutConnector_4294697256
+	sym = strutConnector_4294697448
+	sym = strutConnector_4294697400
+	sym = strutConnector_4294697352
+	sym = strutConnector_4294697304
+	srfN = srfAttach, solidBooster_4294699660
+}
+{
+	part = strutConnector_4294697448
+	pos = -1.321345,7.136114,-0.9649403
+	rot = 0,0.9238797,0,-0.3826833
+	istg = 3
+	dstg = 2
+	sidx = 7
+	sqor = 3
+	attm = 1
+	cData = tgt: solidBooster_78; pos: -0.3291163,0.08757877,-0.05233938; dir: -0.9551566,0.2541705,-0.1518985
+	sym = strutConnector_4294697256
+	sym = strutConnector_4294697496
+	sym = strutConnector_4294697400
+	sym = strutConnector_4294697352
+	sym = strutConnector_4294697304
+	srfN = srfAttach, solidBooster_4294699900
+}
+{
+	part = strutConnector_4294697400
+	pos = -1.046889,7.136114,1.116877
+	rot = 0,0.1305262,0,-0.9914449
+	istg = 3
+	dstg = 2
+	sidx = 8
+	sqor = 3
+	attm = 1
+	cData = tgt: solidBooster_18; pos: -0.3291206,0.08758116,-0.05233986; dir: -0.9551566,0.2541705,-0.1518985
+	sym = strutConnector_4294697256
+	sym = strutConnector_4294697496
+	sym = strutConnector_4294697448
+	sym = strutConnector_4294697352
+	sym = strutConnector_4294697304
+	srfN = srfAttach, solidBooster_4294699804
+}
+{
+	part = strutConnector_4294697352
+	pos = 0.1550518,7.136114,0.9584196
+	rot = 0,-0.3826834,0,-0.9238796
+	istg = 3
+	dstg = 2
+	sidx = 9
+	sqor = 3
+	attm = 1
+	cData = tgt: solidBooster_33; pos: -0.3291235,0.08758068,-0.05234065; dir: -0.9551566,0.2541705,-0.1518985
+	sym = strutConnector_4294697256
+	sym = strutConnector_4294697496
+	sym = strutConnector_4294697448
+	sym = strutConnector_4294697400
+	sym = strutConnector_4294697304
+	srfN = srfAttach, solidBooster_4294699756
+}
+{
+	part = strutConnector_4294697304
+	pos = 0.6187913,7.136114,-0.161721
+	rot = 0,-0.7933534,0,-0.6087617
+	istg = 3
+	dstg = 2
+	sidx = 10
+	sqor = 3
+	attm = 1
+	cData = tgt: solidBooster_48; pos: -0.3291204,0.08758068,-0.05233956; dir: -0.9551566,0.2541705,-0.1518985
+	sym = strutConnector_4294697256
+	sym = strutConnector_4294697496
+	sym = strutConnector_4294697448
+	sym = strutConnector_4294697400
+	sym = strutConnector_4294697352
+	srfN = srfAttach, solidBooster_4294699708
+}
+{
+	part = strutConnector_4294697256
+	pos = -1.785084,7.136114,0.1551955
+	rot = 0,0.6087616,0,-0.7933535
+	istg = 3
+	dstg = 2
+	sidx = 11
+	sqor = 3
+	attm = 1
+	cData = tgt: solidBooster_3; pos: -0.3291172,0.08758068,-0.05233911; dir: -0.9551566,0.2541705,-0.1518985
+	sym = strutConnector_4294697496
+	sym = strutConnector_4294697448
+	sym = strutConnector_4294697400
+	sym = strutConnector_4294697352
+	sym = strutConnector_4294697304
+	srfN = srfAttach, solidBooster_4294699852
+}
+{
+	part = strutConnector_4294697208
+	pos = -0.1259121,7.287456,-1.125144
+	rot = 0,0.9914449,0,0.1305263
+	istg = 3
+	dstg = 2
+	sidx = 12
+	sqor = 3
+	attm = 1
+	cData = tgt: solidBooster_63; pos: -0.5069528,-0.5415459,0.1071705; dir: -0.676384,-0.7225366,0.142988
+	sym = strutConnector_4294696968
+	sym = strutConnector_4294697160
+	sym = strutConnector_4294697112
+	sym = strutConnector_4294697064
+	sym = strutConnector_4294697016
+	srfN = srfAttach, solidBooster_4294699660
+}
+{
+	part = strutConnector_4294697160
+	pos = -1.326106,7.287456,-0.9601794
+	rot = 0,0.9238797,0,-0.3826833
+	istg = 3
+	dstg = 2
+	sidx = 13
+	sqor = 3
+	attm = 1
+	cData = tgt: solidBooster_78; pos: -0.5069017,-0.5414896,0.1071594; dir: -0.676384,-0.7225366,0.142988
+	sym = strutConnector_4294696968
+	sym = strutConnector_4294697208
+	sym = strutConnector_4294697112
+	sym = strutConnector_4294697064
+	sym = strutConnector_4294697016
+	srfN = srfAttach, solidBooster_4294699900
+}
+{
+	part = strutConnector_4294697112
+	pos = -1.783342,7.287456,0.1616993
+	rot = 0,0.6087616,0,-0.7933535
+	istg = 3
+	dstg = 2
+	sidx = 14
+	sqor = 3
+	attm = 1
+	cData = tgt: solidBooster_3; pos: -0.5069351,-0.5415249,0.107167; dir: -0.676384,-0.7225366,0.142988
+	sym = strutConnector_4294696968
+	sym = strutConnector_4294697208
+	sym = strutConnector_4294697160
+	sym = strutConnector_4294697064
+	sym = strutConnector_4294697016
+	srfN = srfAttach, solidBooster_4294699852
+}
+{
+	part = strutConnector_4294697064
+	pos = 0.159813,7.287456,0.9536588
+	rot = 0,-0.3826834,0,-0.9238796
+	istg = 3
+	dstg = 2
+	sidx = 15
+	sqor = 3
+	attm = 1
+	cData = tgt: solidBooster_33; pos: -0.507,-0.5415945,0.10718; dir: -0.676384,-0.7225366,0.142988
+	sym = strutConnector_4294696968
+	sym = strutConnector_4294697208
+	sym = strutConnector_4294697160
+	sym = strutConnector_4294697112
+	sym = strutConnector_4294697016
+	srfN = srfAttach, solidBooster_4294699756
+}
+{
+	part = strutConnector_4294697016
+	pos = 0.6170487,7.287456,-0.1682249
+	rot = 0,-0.7933534,0,-0.6087617
+	istg = 3
+	dstg = 2
+	sidx = 16
+	sqor = 3
+	attm = 1
+	cData = tgt: solidBooster_48; pos: -0.5069552,-0.5415463,0.1071715; dir: -0.676384,-0.7225366,0.142988
+	sym = strutConnector_4294696968
+	sym = strutConnector_4294697208
+	sym = strutConnector_4294697160
+	sym = strutConnector_4294697112
+	sym = strutConnector_4294697064
+	srfN = srfAttach, solidBooster_4294699708
+}
+{
+	part = strutConnector_4294696968
+	pos = -1.040384,7.287456,1.11862
+	rot = 0,0.1305262,0,-0.9914449
+	istg = 3
+	dstg = 2
+	sidx = 17
+	sqor = 3
+	attm = 1
+	cData = tgt: solidBooster_18; pos: -0.5069945,-0.5415897,0.1071793; dir: -0.676384,-0.7225366,0.142988
+	sym = strutConnector_4294697208
+	sym = strutConnector_4294697160
+	sym = strutConnector_4294697112
+	sym = strutConnector_4294697064
+	sym = strutConnector_4294697016
+	srfN = srfAttach, solidBooster_4294699804
+}
+{
+	part = strutConnector_4294696920
+	pos = -0.122333,6.878391,-2.370853
+	rot = 0,0.9914449,0,0.1305263
+	istg = 5
+	dstg = 4
+	sidx = 30
+	sqor = 5
+	attm = 1
+	cData = tgt: solidBooster_65; pos: -1.533457,-1.387537,-0.3618501; dir: -0.7304096,-0.660905,-0.1723553
+	sym = strutConnector_4294696680
+	sym = strutConnector_4294696872
+	sym = strutConnector_4294696824
+	sym = strutConnector_4294696776
+	sym = strutConnector_4294696728
+	srfN = srfAttach, solidBooster_4294699072
+}
+{
+	part = strutConnector_4294696872
+	pos = -2.403128,6.878391,-1.586134
+	rot = 0,0.9238797,0,-0.3826832
+	istg = 5
+	dstg = 4
+	sidx = 31
+	sqor = 5
+	attm = 1
+	cData = tgt: solidBooster_80; pos: -1.53345,-1.387528,-0.3618488; dir: -0.7304096,-0.660905,-0.1723553
+	sym = strutConnector_4294696680
+	sym = strutConnector_4294696920
+	sym = strutConnector_4294696824
+	sym = strutConnector_4294696776
+	sym = strutConnector_4294696728
+	srfN = srfAttach, solidBooster_4294699312
+}
+{
+	part = strutConnector_4294696824
+	pos = -2.863943,6.878391,0.7814526
+	rot = 0,0.6087616,0,-0.7933535
+	istg = 5
+	dstg = 4
+	sidx = 32
+	sqor = 5
+	attm = 1
+	cData = tgt: solidBooster_5; pos: -1.533454,-1.387533,-0.3618496; dir: -0.7304096,-0.660905,-0.1723553
+	sym = strutConnector_4294696680
+	sym = strutConnector_4294696920
+	sym = strutConnector_4294696872
+	sym = strutConnector_4294696776
+	sym = strutConnector_4294696728
+	srfN = srfAttach, solidBooster_4294699264
+}
+{
+	part = strutConnector_4294696776
+	pos = 1.236845,6.878391,1.579619
+	rot = 0,-0.3826834,0,-0.9238799
+	istg = 5
+	dstg = 4
+	sidx = 33
+	sqor = 5
+	attm = 1
+	cData = tgt: solidBooster_35; pos: -1.533469,-1.387544,-0.3618524; dir: -0.7304096,-0.660905,-0.1723553
+	sym = strutConnector_4294696680
+	sym = strutConnector_4294696920
+	sym = strutConnector_4294696872
+	sym = strutConnector_4294696824
+	sym = strutConnector_4294696728
+	srfN = srfAttach, solidBooster_4294699168
+}
+{
+	part = strutConnector_4294696728
+	pos = 1.697658,6.878391,-0.7879805
+	rot = 0,-0.7933534,0,-0.6087617
+	istg = 5
+	dstg = 4
+	sidx = 34
+	sqor = 5
+	attm = 1
+	cData = tgt: solidBooster_50; pos: -1.533463,-1.387542,-0.3618496; dir: -0.7304096,-0.660905,-0.1723553
+	sym = strutConnector_4294696680
+	sym = strutConnector_4294696920
+	sym = strutConnector_4294696872
+	sym = strutConnector_4294696824
+	sym = strutConnector_4294696776
+	srfN = srfAttach, solidBooster_4294699120
+}
+{
+	part = strutConnector_4294696680
+	pos = -1.043963,6.878391,2.36433
+	rot = 0,0.1305262,0,-0.9914449
+	istg = 5
+	dstg = 4
+	sidx = 35
+	sqor = 5
+	attm = 1
+	cData = tgt: solidBooster_20; pos: -1.533461,-1.387539,-0.3618521; dir: -0.7304096,-0.660905,-0.1723553
+	sym = strutConnector_4294696920
+	sym = strutConnector_4294696872
+	sym = strutConnector_4294696824
+	sym = strutConnector_4294696776
+	sym = strutConnector_4294696728
+	srfN = srfAttach, solidBooster_4294699216
+}
+{
+	part = R8winglet_4294696632
+	pos = -4.786405,5.689312,-1.488523
+	rot = 0,-0.1305263,0,0.9914451
+	istg = 5
+	dstg = 4
+	sidx = 36
+	sqor = 5
+	attm = 1
+	sym = R8winglet_4294696412
+	sym = R8winglet_4294696588
+	sym = R8winglet_4294696544
+	sym = R8winglet_4294696500
+	sym = R8winglet_4294696456
+	srfN = srfAttach, solidBooster_4294698640
+}
+{
+	part = R8winglet_4294696588
+	pos = -1.398507,5.689312,-4.386018
+	rot = 0,-0.6087615,0,0.7933533
+	istg = 5
+	dstg = 4
+	sidx = 37
+	sqor = 5
+	attm = 1
+	sym = R8winglet_4294696412
+	sym = R8winglet_4294696632
+	sym = R8winglet_4294696544
+	sym = R8winglet_4294696500
+	sym = R8winglet_4294696456
+	srfN = srfAttach, solidBooster_4294698880
+}
+{
+	part = R8winglet_4294696544
+	pos = -3.971031,5.689312,2.894226
+	rot = 0,0.3826835,0,0.9238798
+	istg = 5
+	dstg = 4
+	sidx = 38
+	sqor = 5
+	attm = 1
+	sym = R8winglet_4294696412
+	sym = R8winglet_4294696632
+	sym = R8winglet_4294696588
+	sym = R8winglet_4294696500
+	sym = R8winglet_4294696456
+	srfN = srfAttach, solidBooster_4294698832
+}
+{
+	part = R8winglet_4294696500
+	pos = 0.2322114,5.689312,4.379497
+	rot = 0,0.7933537,0,0.6087613
+	istg = 5
+	dstg = 4
+	sidx = 39
+	sqor = 5
+	attm = 1
+	sym = R8winglet_4294696412
+	sym = R8winglet_4294696632
+	sym = R8winglet_4294696588
+	sym = R8winglet_4294696544
+	sym = R8winglet_4294696456
+	srfN = srfAttach, solidBooster_4294698784
+}
+{
+	part = R8winglet_4294696456
+	pos = 2.804757,5.689312,-2.900767
+	rot = 0,0.9238799,0,-0.3826829
+	istg = 5
+	dstg = 4
+	sidx = 40
+	sqor = 5
+	attm = 1
+	sym = R8winglet_4294696412
+	sym = R8winglet_4294696632
+	sym = R8winglet_4294696588
+	sym = R8winglet_4294696544
+	sym = R8winglet_4294696500
+	srfN = srfAttach, solidBooster_4294698688
+}
+{
+	part = R8winglet_4294696412
+	pos = 3.620124,5.689312,1.482003
+	rot = 0,0.9914451,0,0.1305262
+	istg = 5
+	dstg = 4
+	sidx = 41
+	sqor = 5
+	attm = 1
+	sym = R8winglet_4294696632
+	sym = R8winglet_4294696588
+	sym = R8winglet_4294696544
+	sym = R8winglet_4294696500
+	sym = R8winglet_4294696456
+	srfN = srfAttach, solidBooster_4294698736
+}
+{
+	part = R8winglet_4294696368
+	pos = 0.2320816,5.697658,-4.385535
+	rot = 0,-0.7933536,0,0.6087614
+	istg = 5
+	dstg = 4
+	sidx = 42
+	sqor = 5
+	attm = 1
+	sym = R8winglet_4294696148
+	sym = R8winglet_4294696324
+	sym = R8winglet_4294696280
+	sym = R8winglet_4294696236
+	sym = R8winglet_4294696192
+	srfN = srfAttach, solidBooster_4294698352
+}
+{
+	part = R8winglet_4294696324
+	pos = -3.970692,5.697658,-2.900409
+	rot = 0,-0.3826837,0,0.9238797
+	istg = 5
+	dstg = 4
+	sidx = 43
+	sqor = 5
+	attm = 1
+	sym = R8winglet_4294696148
+	sym = R8winglet_4294696368
+	sym = R8winglet_4294696280
+	sym = R8winglet_4294696236
+	sym = R8winglet_4294696192
+	srfN = srfAttach, solidBooster_4294698592
+}
+{
+	part = R8winglet_4294696280
+	pos = -4.7859,5.697658,1.481861
+	rot = 0,0.1305262,0,0.9914452
+	istg = 5
+	dstg = 4
+	sidx = 44
+	sqor = 5
+	attm = 1
+	sym = R8winglet_4294696148
+	sym = R8winglet_4294696368
+	sym = R8winglet_4294696324
+	sym = R8winglet_4294696236
+	sym = R8winglet_4294696192
+	srfN = srfAttach, solidBooster_4294698544
+}
+{
+	part = R8winglet_4294696236
+	pos = -1.398376,5.697658,4.379013
+	rot = 0,0.6087617,0,0.7933536
+	istg = 5
+	dstg = 4
+	sidx = 45
+	sqor = 5
+	attm = 1
+	sym = R8winglet_4294696148
+	sym = R8winglet_4294696368
+	sym = R8winglet_4294696324
+	sym = R8winglet_4294696280
+	sym = R8winglet_4294696192
+	srfN = srfAttach, solidBooster_4294698496
+}
+{
+	part = R8winglet_4294696192
+	pos = 3.619632,5.697658,-1.488393
+	rot = 0,0.9914451,0,-0.1305261
+	istg = 5
+	dstg = 4
+	sidx = 46
+	sqor = 5
+	attm = 1
+	sym = R8winglet_4294696148
+	sym = R8winglet_4294696368
+	sym = R8winglet_4294696324
+	sym = R8winglet_4294696280
+	sym = R8winglet_4294696236
+	srfN = srfAttach, solidBooster_4294698400
+}
+{
+	part = R8winglet_4294696148
+	pos = 2.804412,5.697658,2.893893
+	rot = 0,0.9238799,0,0.3826836
+	istg = 5
+	dstg = 4
+	sidx = 47
+	sqor = 5
+	attm = 1
+	sym = R8winglet_4294696368
+	sym = R8winglet_4294696324
+	sym = R8winglet_4294696280
+	sym = R8winglet_4294696236
+	sym = R8winglet_4294696192
+	srfN = srfAttach, solidBooster_4294698448
+}
+// Do not edit this file by hand. There are no cheating opportunities here. Go away.
