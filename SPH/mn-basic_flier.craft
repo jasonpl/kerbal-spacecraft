@@ -1,0 +1,362 @@
+// SFS Craft File
+
+ship = mn-basic_flier
+version = 0.15.0
+type = SPH
+PART
+{
+	part = Mark2Cockpit_4293603404
+	pos = 0,5,0
+	rot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = SmallGearBay_4293603376
+	link = SmallGearBay_4293603258
+	link = sasModule_4293603140
+	link = avionicsNoseCone_4293602210
+	attN = top, avionicsNoseCone_4293602210
+	attN = bottom, sasModule_4293603140
+}
+PART
+{
+	part = SmallGearBay_4293603376
+	pos = -0.3211477,4.443756,-0.1305719
+	rot = 0,0,-0.2588192,0.9659259
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = -1
+	attm = 1
+	sym = SmallGearBay_4293603258
+	srfN = srfAttach, Mark2Cockpit_4293603404
+}
+PART
+{
+	part = SmallGearBay_4293603258
+	pos = 0.3211477,4.443756,-0.1305719
+	rot = 0,0,-0.2588191,-0.9659259
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 2
+	sqor = -1
+	attm = 1
+	sym = SmallGearBay_4293603376
+	srfN = srfAttach, Mark2Cockpit_4293603404
+}
+PART
+{
+	part = sasModule_4293603140
+	pos = 0,5,-1.022454
+	rot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 3
+	sqor = -1
+	attm = 0
+	link = MK1Fuselage_4293603112
+	attN = bottom, MK1Fuselage_4293603112
+	attN = top, Mark2Cockpit_4293603404
+}
+PART
+{
+	part = MK1Fuselage_4293603112
+	pos = 0,5,-2.051996
+	rot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 4
+	sqor = -1
+	attm = 0
+	link = MK1Fuselage_4293603084
+	link = sweptWing_4293602498
+	link = sweptWing_4293602426
+	link = sweptWing_4293602354
+	link = sweptWing_4293602282
+	attN = top, sasModule_4293603140
+	attN = bottom, MK1Fuselage_4293603084
+}
+PART
+{
+	part = MK1Fuselage_4293603084
+	pos = 0,5,-3.552001
+	rot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 5
+	sqor = -1
+	attm = 0
+	link = R8winglet_4293603056
+	link = R8winglet_4293603012
+	link = turboFanEngine_4293602968
+	link = R8winglet_4293602910
+	link = R8winglet_4293602866
+	link = R8winglet_4293602822
+	link = R8winglet_4293602778
+	link = SmallGearBay_4293602734
+	link = SmallGearBay_4293602616
+	attN = top, MK1Fuselage_4293603112
+	attN = bottom, turboFanEngine_4293602968
+}
+PART
+{
+	part = R8winglet_4293603056
+	pos = 0.9128504,5,-3.796962
+	rot = -3.090863E-08,0.7071068,0.7071068,-3.090862E-08
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 6
+	sqor = -1
+	attm = 1
+	sym = R8winglet_4293603012
+	srfN = srfAttach, MK1Fuselage_4293603084
+}
+PART
+{
+	part = R8winglet_4293603012
+	pos = -0.9128504,5,-3.796962
+	rot = -0.7071068,0,0,-0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 7
+	sqor = -1
+	attm = 1
+	sym = R8winglet_4293603056
+	srfN = srfAttach, MK1Fuselage_4293603084
+}
+PART
+{
+	part = turboFanEngine_4293602968
+	pos = 0,5,-5.440002
+	rot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 8
+	sqor = -1
+	attm = 0
+	attN = top, MK1Fuselage_4293603084
+}
+PART
+{
+	part = R8winglet_4293602910
+	pos = 0.7913251,4.543128,-3.883983
+	rot = 0.1830126,0.6830128,0.6830128,0.1830126
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 9
+	sqor = -1
+	attm = 1
+	sym = R8winglet_4293602866
+	srfN = srfAttach, MK1Fuselage_4293603084
+}
+PART
+{
+	part = R8winglet_4293602866
+	pos = -0.7913251,4.543128,-3.883983
+	rot = -0.6830127,-0.1830127,-0.1830127,-0.6830127
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 10
+	sqor = -1
+	attm = 1
+	sym = R8winglet_4293602910
+	srfN = srfAttach, MK1Fuselage_4293603084
+}
+PART
+{
+	part = R8winglet_4293602822
+	pos = 0.7905115,5.456402,-3.778473
+	rot = -0.1830127,0.6830127,0.6830127,-0.1830127
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 11
+	sqor = -1
+	attm = 1
+	sym = R8winglet_4293602778
+	srfN = srfAttach, MK1Fuselage_4293603084
+}
+PART
+{
+	part = R8winglet_4293602778
+	pos = -0.7905115,5.456402,-3.778473
+	rot = -0.6830127,0.1830127,0.1830127,-0.6830127
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 12
+	sqor = -1
+	attm = 1
+	sym = R8winglet_4293602822
+	srfN = srfAttach, MK1Fuselage_4293603084
+}
+PART
+{
+	part = SmallGearBay_4293602734
+	pos = 0.3137119,4.456635,-3.765274
+	rot = 0,0,0.2588193,0.9659258
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 13
+	sqor = -1
+	attm = 1
+	sym = SmallGearBay_4293602616
+	srfN = srfAttach, MK1Fuselage_4293603084
+}
+PART
+{
+	part = SmallGearBay_4293602616
+	pos = -0.3137119,4.456635,-3.765274
+	rot = 0,0,0.2588192,-0.9659259
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 14
+	sqor = -1
+	attm = 1
+	sym = SmallGearBay_4293602734
+	srfN = srfAttach, MK1Fuselage_4293603084
+}
+PART
+{
+	part = sweptWing_4293602498
+	pos = 0.4821438,5,-2.38953
+	rot = -3.090863E-08,0.7071068,0.7071068,-3.090862E-08
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 15
+	sqor = -1
+	attm = 1
+	link = smallCtrlSrf_4293602470
+	sym = sweptWing_4293602426
+	srfN = srfAttach, MK1Fuselage_4293603112
+}
+PART
+{
+	part = smallCtrlSrf_4293602470
+	pos = 4.169783,5,-3.611186
+	rot = 0.0669727,0.703928,0.7039281,-0.06697275
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 16
+	sqor = -1
+	attm = 1
+	sym = smallCtrlSrf_4293602398
+	srfN = srfAttach, sweptWing_4293602498
+}
+PART
+{
+	part = sweptWing_4293602426
+	pos = -0.4821438,5,-2.38953
+	rot = -0.7071068,0,0,-0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 17
+	sqor = -1
+	attm = 1
+	link = smallCtrlSrf_4293602398
+	sym = sweptWing_4293602498
+	srfN = srfAttach, MK1Fuselage_4293603112
+}
+PART
+{
+	part = smallCtrlSrf_4293602398
+	pos = -4.169777,5,-3.611186
+	rot = 0.7039281,-0.06697274,0.06697274,0.7039281
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 18
+	sqor = -1
+	attm = 1
+	sym = smallCtrlSrf_4293602470
+	srfN = srfAttach, sweptWing_4293602426
+}
+PART
+{
+	part = sweptWing_4293602354
+	pos = 0.4738371,5.126964,-2.508826
+	rot = -0.092296,0.7010574,0.7010574,-0.09229599
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 19
+	sqor = -1
+	attm = 1
+	link = smallCtrlSrf_4293602326
+	sym = sweptWing_4293602282
+	srfN = srfAttach, MK1Fuselage_4293603112
+}
+PART
+{
+	part = smallCtrlSrf_4293602326
+	pos = 4.023532,6.078103,-3.795919
+	rot = -0.02702875,0.7062904,0.6891054,-0.159867
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 20
+	sqor = -1
+	attm = 1
+	sym = smallCtrlSrf_4293602254
+	srfN = srfAttach, sweptWing_4293602354
+}
+PART
+{
+	part = sweptWing_4293602282
+	pos = -0.4738371,5.126964,-2.508826
+	rot = -0.7010574,0.09229596,0.09229596,-0.7010574
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 21
+	sqor = -1
+	attm = 1
+	link = smallCtrlSrf_4293602254
+	sym = sweptWing_4293602354
+	srfN = srfAttach, MK1Fuselage_4293603112
+}
+PART
+{
+	part = smallCtrlSrf_4293602254
+	pos = -4.023527,6.078101,-3.795919
+	rot = -0.6891052,0.159867,0.0270287,-0.7062904
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 22
+	sqor = -1
+	attm = 1
+	sym = smallCtrlSrf_4293602326
+	srfN = srfAttach, sweptWing_4293602282
+}
+PART
+{
+	part = avionicsNoseCone_4293602210
+	pos = 0,5,0.8500009
+	rot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 23
+	sqor = -1
+	attm = 0
+	attN = bottom, Mark2Cockpit_4293603404
+}
