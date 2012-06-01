@@ -1,0 +1,299 @@
+// SFS Craft File
+
+ship = mn-jumpjet-lander
+version = 0.15.1
+type = VAB
+PART
+{
+	part = mk1pod_4294391238
+	pos = -0.08559936,7.685281,0.0008291583
+	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = stackDecoupler_4294391206
+	link = parachuteSingle_4294391172
+	attN = bottom, stackDecoupler_4294391206
+	attN = top, parachuteSingle_4294391172
+}
+PART
+{
+	part = stackDecoupler_4294391206
+	pos = -0.08559936,7.300229,0.0008291583
+	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = MK1Fuselage_4294391128
+	link = SmallGearBay_4294390658
+	attN = bottom, MK1Fuselage_4294391128
+	attN = top, mk1pod_4294391238
+}
+PART
+{
+	part = parachuteSingle_4294391172
+	pos = -0.08559936,8.090466,0.0008291583
+	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = -1
+	attm = 0
+	attN = bottom, mk1pod_4294391238
+}
+PART
+{
+	part = MK1Fuselage_4294391128
+	pos = -0.08559936,6.261616,0.0008291583
+	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = JetEngine_4294391100
+	link = sweptWing_4294391042
+	link = sweptWing_4294391014
+	link = sweptWing_4294390986
+	link = sweptWing_4294390958
+	link = sweptWing_4294390930
+	link = sweptWing_4294390902
+	attN = top, stackDecoupler_4294391206
+	attN = bottom, JetEngine_4294391100
+}
+PART
+{
+	part = JetEngine_4294391100
+	pos = -0.08559936,4.728316,0.0008291583
+	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 1
+	sqor = -1
+	attm = 0
+	attN = top, MK1Fuselage_4294391128
+}
+PART
+{
+	part = sweptWing_4294391042
+	pos = -0.5660037,6.23109,0.0008291717
+	rot = 0,1,0,-4.371139E-08
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 2
+	sqor = -1
+	attm = 1
+	link = AdvancedCanard_4294390838
+	sym = sweptWing_4294391014
+	srfN = srfAttach, MK1Fuselage_4294391128
+}
+PART
+{
+	part = sweptWing_4294391014
+	pos = 0.394805,6.23109,0.0008291869
+	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 3
+	sqor = -1
+	attm = 1
+	link = AdvancedCanard_4294390874
+	sym = sweptWing_4294391042
+	srfN = srfAttach, MK1Fuselage_4294391128
+}
+PART
+{
+	part = sweptWing_4294390986
+	pos = -0.5634337,6.26265,0.1288645
+	rot = -8.630946E-09,0.9914449,7.913715E-15,-0.1305262
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 4
+	sqor = -1
+	attm = 1
+	link = AdvancedCanard_4294390766
+	link = SmallGearBay_4294390422
+	sym = sweptWing_4294390958
+	srfN = srfAttach, MK1Fuselage_4294391128
+}
+PART
+{
+	part = sweptWing_4294390958
+	pos = 0.392235,6.26265,-0.1272061
+	rot = -7.536444E-15,0.1305262,-8.630946E-09,0.9914449
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 5
+	sqor = -1
+	attm = 1
+	link = AdvancedCanard_4294390802
+	sym = sweptWing_4294390986
+	srfN = srfAttach, MK1Fuselage_4294391128
+}
+PART
+{
+	part = sweptWing_4294390930
+	pos = -0.5592003,6.250273,-0.1260718
+	rot = -1.794878E-15,0.9914449,-4.809362E-16,0.1305261
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 6
+	sqor = -1
+	attm = 1
+	link = AdvancedCanard_4294390694
+	sym = sweptWing_4294390902
+	srfN = srfAttach, MK1Fuselage_4294391128
+}
+PART
+{
+	part = sweptWing_4294390902
+	pos = 0.3880016,6.250273,0.1277301
+	rot = 4.809363E-16,-0.1305262,-1.794878E-15,0.9914449
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 7
+	sqor = -1
+	attm = 1
+	link = AdvancedCanard_4294390730
+	link = SmallGearBay_4294390540
+	sym = sweptWing_4294390930
+	srfN = srfAttach, MK1Fuselage_4294391128
+}
+PART
+{
+	part = AdvancedCanard_4294390874
+	pos = 4.184239,5.459099,0.0008292923
+	rot = 0.09471385,0.9955046,-1.128282E-09,4.351489E-08
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 8
+	sqor = -1
+	attm = 1
+	sym = AdvancedCanard_4294390838
+	srfN = srfAttach, sweptWing_4294391014
+}
+PART
+{
+	part = AdvancedCanard_4294390838
+	pos = -4.355438,5.459099,0.0008293975
+	rot = -5.268356E-09,1.413432E-15,-0.09471385,-0.9955046
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 9
+	sqor = -1
+	attm = 1
+	sym = AdvancedCanard_4294390874
+	srfN = srfAttach, sweptWing_4294391042
+}
+PART
+{
+	part = AdvancedCanard_4294390802
+	pos = 4.05962,5.528526,-1.109879
+	rot = 0.09393103,0.9872772,-0.01215175,-0.1277228
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 10
+	sqor = -1
+	attm = 1
+	sym = AdvancedCanard_4294390766
+	srfN = srfAttach, sweptWing_4294390958
+}
+PART
+{
+	part = AdvancedCanard_4294390766
+	pos = -4.230827,5.528526,1.111539
+	rot = -0.01215176,-0.1277229,-0.0939311,-0.9872773
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 11
+	sqor = -1
+	attm = 1
+	sym = AdvancedCanard_4294390802
+	srfN = srfAttach, sweptWing_4294390986
+}
+PART
+{
+	part = AdvancedCanard_4294390730
+	pos = 4.058445,5.532929,1.111223
+	rot = -0.09393093,-0.9872772,-0.01215156,-0.127723
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 12
+	sqor = -1
+	attm = 1
+	sym = AdvancedCanard_4294390694
+	srfN = srfAttach, sweptWing_4294390902
+}
+PART
+{
+	part = AdvancedCanard_4294390694
+	pos = -4.229647,5.532929,-1.109565
+	rot = -0.01215156,-0.127723,0.09393093,0.9872772
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 13
+	sqor = -1
+	attm = 1
+	sym = AdvancedCanard_4294390730
+	srfN = srfAttach, sweptWing_4294390930
+}
+PART
+{
+	part = SmallGearBay_4294390658
+	pos = -0.08559936,7.19462,0.6655128
+	rot = 0,-0.7071068,0.7071068,0
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 14
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, stackDecoupler_4294391206
+}
+PART
+{
+	part = SmallGearBay_4294390540
+	pos = 3.920949,5.552762,1.223955
+	rot = 0.7027671,0.1285778,-0.07510807,-0.6956616
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 15
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, sweptWing_4294390902
+}
+PART
+{
+	part = SmallGearBay_4294390422
+	pos = -4.226849,5.571313,1.260048
+	rot = -0.702767,0.1285777,-0.07510795,0.6956618
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 16
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, sweptWing_4294390986
+}
