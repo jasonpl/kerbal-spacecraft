@@ -1,0 +1,212 @@
+// SFS Craft File
+
+ship = mn-cart-glider
+version = 0.15.1
+type = SPH
+PART
+{
+	part = Mark1Cockpit_4294568160
+	pos = 0,5,0
+	rot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = Mk1FuselageStructural_4294568132
+	attN = bottom, Mk1FuselageStructural_4294568132
+}
+PART
+{
+	part = Mk1FuselageStructural_4294568132
+	pos = 0,5,-0.9650007
+	rot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = -1
+	attm = 0
+	link = airplaneTail_4294568104
+	link = hstwCart_4294568076
+	link = sweptWing_4294567900
+	link = sweptWing_4294567872
+	attN = top, Mark1Cockpit_4294568160
+	attN = bottom, airplaneTail_4294568104
+}
+PART
+{
+	part = airplaneTail_4294568104
+	pos = 0,5,-1.725002
+	rot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 2
+	sqor = -1
+	attm = 0
+	link = CanardController_4294567788
+	link = CanardController_4294567748
+	link = CanardController_4294567708
+	link = CanardController_4294567668
+	srfN = , Mk1FuselageStructural_4294568132
+	attN = top, Mk1FuselageStructural_4294568132
+}
+PART
+{
+	part = hstwCart_4294568076
+	pos = 5.948339E-08,4.41959,-0.8810179
+	rot = 0,0,-8.742278E-08,-1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 3
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, Mk1FuselageStructural_4294568132
+}
+PART
+{
+	part = sweptWing_4294567900
+	pos = 0.4820332,5,-0.9446019
+	rot = -0.7071069,-3.090863E-08,-3.090862E-08,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 4
+	sqor = -1
+	attm = 1
+	link = sweptWing_4294567844
+	sym = sweptWing_4294567872
+	srfN = srfAttach, Mk1FuselageStructural_4294568132
+}
+PART
+{
+	part = sweptWing_4294567872
+	pos = -0.4820332,5,-0.9446019
+	rot = 0,0.7071068,0.7071068,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 5
+	sqor = -1
+	attm = 1
+	link = sweptWing_4294567816
+	sym = sweptWing_4294567900
+	srfN = srfAttach, Mk1FuselageStructural_4294568132
+}
+PART
+{
+	part = sweptWing_4294567844
+	pos = 4.251563,5,-1.822324
+	rot = -0.7039282,-0.06697275,0.06697273,-0.7039279
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 6
+	sqor = -1
+	attm = 1
+	link = AdvancedCanard_4294567628
+	sym = sweptWing_4294567816
+	srfN = srfAttach, sweptWing_4294567900
+}
+PART
+{
+	part = sweptWing_4294567816
+	pos = -4.251565,5,-1.822324
+	rot = 0.06697274,-0.7039281,-0.7039281,-0.06697274
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 7
+	sqor = -1
+	attm = 1
+	link = AdvancedCanard_4294567592
+	sym = sweptWing_4294567844
+	srfN = srfAttach, sweptWing_4294567872
+}
+PART
+{
+	part = CanardController_4294567788
+	pos = 0.1599358,4.907661,-4.48685
+	rot = 0.2182573,0.6726643,0.6911863,0.1488223
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 8
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294567748
+	srfN = srfAttach, airplaneTail_4294568104
+}
+PART
+{
+	part = CanardController_4294567748
+	pos = -0.1599358,4.907661,-4.48685
+	rot = 0.6911862,0.1488223,0.2182573,0.6726643
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 9
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294567788
+	srfN = srfAttach, airplaneTail_4294568104
+}
+PART
+{
+	part = CanardController_4294567708
+	pos = 0.1292484,5.129248,-4.514158
+	rot = -0.2386553,0.6691793,0.6349055,-0.3035422
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 10
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294567668
+	srfN = srfAttach, airplaneTail_4294568104
+}
+PART
+{
+	part = CanardController_4294567668
+	pos = -0.1292484,5.129248,-4.514158
+	rot = -0.6349055,0.3035421,0.2386553,-0.6691793
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 11
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294567708
+	srfN = srfAttach, airplaneTail_4294568104
+}
+PART
+{
+	part = AdvancedCanard_4294567628
+	pos = 7.856925,5,-3.221204
+	rot = 0.1333432,0.6944203,0.6944204,-0.1333432
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 12
+	sqor = -1
+	attm = 1
+	sym = AdvancedCanard_4294567592
+	srfN = srfAttach, sweptWing_4294567844
+}
+PART
+{
+	part = AdvancedCanard_4294567592
+	pos = -7.856929,5,-3.221204
+	rot = 0.6944204,-0.1333432,0.1333432,0.6944204
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 13
+	sqor = -1
+	attm = 1
+	sym = AdvancedCanard_4294567628
+	srfN = srfAttach, sweptWing_4294567816
+}
