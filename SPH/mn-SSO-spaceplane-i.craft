@@ -4,7 +4,7 @@
 // This craft is designed to be able to fly into Kerbin orbit 
 //   from the ground without any stage separations AND get
 //   back, landing on a smooth surface.
-// 5 Regimes of flight: (angles are attitude, aiming up, NOT heading.  Heading should be 90)
+// 7 Regimes of flight: (angles are attitude, aiming up, NOT heading.  Heading should be 90)
 //   1: Takeoff: jet engines 100%, at about 110m/s angle up 20 deg or so
 //   2: below 13km: use jets at 100%, climb at about 55-65 deg
 //   3: above 13km: activate rockets, gradually angle towards 20-40 deg
