@@ -1,370 +1,482 @@
-ship = current best
-version = 0.14.4
+// SFS Craft File
+
+ship = jpl-current best
+version = 0.15.2
+type = VAB
+PART
 {
-	part = mk1pod_4294770002
-	pos = -0.1231361,12.88563,0.02598373
+	part = mk1pod_4294893262
+	pos = -0.243465,23.15479,0.1584738
 	rot = 0,0,0,1
+	mir = 1,1,1
 	istg = 0
 	dstg = 0
 	sidx = 0
 	sqor = 0
 	attm = 0
-	link = parachuteSingle_4294769970
-	link = stackDecoupler_4294754090
-	attN = bottom, stackDecoupler_4294754090
-	attN = top, parachuteSingle_4294769970
+	link = parachuteSingle_4294893230
+	link = stackDecoupler_4294893186
+	attN = bottom, stackDecoupler_4294893186
+	attN = top, parachuteSingle_4294893230
 }
+PART
 {
-	part = parachuteSingle_4294769970
-	pos = -0.1231361,13.29082,0.02598373
+	part = parachuteSingle_4294893230
+	pos = -0.243465,23.55998,0.1584738
 	rot = 0,0,0,1
+	mir = 1,1,1
 	istg = 0
 	dstg = 0
 	sidx = 1
 	sqor = 0
 	attm = 0
-	attN = bottom, mk1pod_4294770002
+	attN = bottom, mk1pod_4294893262
 }
+PART
 {
-	part = stackDecoupler_4294754090
-	pos = -0.1231361,12.50058,0.02598373
+	part = stackDecoupler_4294893186
+	pos = -0.243465,22.76974,0.1584738
 	rot = 0,0,0,1
+	mir = 1,1,1
 	istg = 1
 	dstg = 1
 	sidx = 0
 	sqor = -1
 	attm = 0
-	link = sasModule_4294755272
-	attN = bottom, sasModule_4294755272
-	attN = top, mk1pod_4294770002
+	link = fuelTank_4294811288
+	attN = bottom, fuelTank_4294811288
+	attN = top, mk1pod_4294893262
 }
+PART
 {
-	part = sasModule_4294755272
-	pos = -0.1231361,11.95951,0.02598373
+	part = fuelTank_4294811288
+	pos = -0.243465,21.70357,0.1584738
 	rot = 0,0,0,1
+	mir = 1,1,1
 	istg = 2
 	dstg = 2
 	sidx = 0
 	sqor = -1
 	attm = 0
-	link = fuelTankSmall_4294769930
-	attN = bottom, fuelTankSmall_4294769930
-	attN = top, stackDecoupler_4294754090
+	link = liquidEngine3_4294818064
+	link = landingLeg1_4294810484
+	link = landingLeg1_4294810432
+	link = landingLeg1_4294814128
+	attN = top, stackDecoupler_4294893186
+	attN = bottom, liquidEngine3_4294818064
 }
+PART
 {
-	part = fuelTankSmall_4294769930
-	pos = -0.1231361,11.23077,0.02598373
+	part = liquidEngine3_4294818064
+	pos = -0.243465,20.75708,0.1584738
 	rot = 0,0,0,1
+	mir = 1,1,1
 	istg = 2
 	dstg = 2
 	sidx = 1
 	sqor = -1
 	attm = 0
-	link = liquidEngine2_4294769906
-	link = winglet_4294769152
-	link = winglet_4294769120
-	link = winglet_4294769088
-	attN = top, sasModule_4294755272
-	attN = bottom, liquidEngine2_4294769906
+	link = stackDecoupler_4294893028
+	attN = top, fuelTank_4294811288
+	attN = bottom, stackDecoupler_4294893028
 }
+PART
 {
-	part = liquidEngine2_4294769906
-	pos = -0.1231361,10.06511,0.02598373
-	rot = 0,0,0,1
+	part = landingLeg1_4294810484
+	pos = -0.2434651,20.9886,-0.4504158
+	rot = 0,0.7071068,0,-0.7071069
+	mir = 1,1,1
 	istg = 2
 	dstg = 2
 	sidx = 2
 	sqor = -1
-	attm = 0
-	link = stackDecoupler_4294769844
-	attN = top, fuelTankSmall_4294769930
-	attN = bottom, stackDecoupler_4294769844
+	attm = 1
+	sym = landingLeg1_4294814128
+	sym = landingLeg1_4294810432
+	srfN = srfAttach, fuelTank_4294811288
 }
+PART
 {
-	part = stackDecoupler_4294769844
-	pos = -0.1231361,9.408381,0.02598373
+	part = landingLeg1_4294810432
+	pos = -0.7707788,20.9886,0.4629187
+	rot = 0,-0.2588191,0,-0.9659259
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 3
+	sqor = -1
+	attm = 1
+	sym = landingLeg1_4294814128
+	sym = landingLeg1_4294810484
+	srfN = srfAttach, fuelTank_4294811288
+}
+PART
+{
+	part = landingLeg1_4294814128
+	pos = 0.2838488,20.9886,0.4629186
+	rot = 0,0.9659259,0,0.258819
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 4
+	sqor = -1
+	attm = 1
+	sym = landingLeg1_4294810484
+	sym = landingLeg1_4294810432
+	srfN = srfAttach, fuelTank_4294811288
+}
+PART
+{
+	part = stackDecoupler_4294893028
+	pos = -0.243465,20.29644,0.1584738
 	rot = 0,0,0,1
+	mir = 1,1,1
 	istg = 3
 	dstg = 3
 	sidx = 0
 	sqor = -1
 	attm = 0
-	link = advSasModule_4294769810
-	attN = bottom, advSasModule_4294769810
-	attN = top, liquidEngine2_4294769906
+	link = advSasModule_4294892994
+	attN = bottom, advSasModule_4294892994
+	attN = top, liquidEngine3_4294818064
 }
+PART
 {
-	part = advSasModule_4294769810
-	pos = -0.1231361,8.346862,0.02598373
+	part = advSasModule_4294892994
+	pos = -0.243465,19.23492,0.1584738
 	rot = 0,0,0,1
+	mir = 1,1,1
 	istg = 4
 	dstg = 4
 	sidx = 0
 	sqor = -1
 	attm = 0
-	link = fuelTank_4294769782
-	attN = bottom, fuelTank_4294769782
-	attN = top, stackDecoupler_4294769844
+	link = fuelTank_4294875362
+	attN = top, stackDecoupler_4294893028
+	attN = bottom, fuelTank_4294875362
 }
+PART
 {
-	part = fuelTank_4294769782
-	pos = -0.1231361,7.602782,0.02598373
+	part = fuelTank_4294875362
+	pos = -0.243465,18.49084,0.1584738
 	rot = 0,0,0,1
+	mir = 1,1,1
 	istg = 4
 	dstg = 4
 	sidx = 1
 	sqor = -1
 	attm = 0
-	link = liquidEngine3_4294769758
-	link = R8winglet_4294769284
-	link = R8winglet_4294769240
-	link = R8winglet_4294769196
-	attN = top, advSasModule_4294769810
-	attN = bottom, liquidEngine3_4294769758
+	link = fuelTank_4294892966
+	attN = top, advSasModule_4294892994
+	attN = bottom, fuelTank_4294892966
 }
+PART
 {
-	part = liquidEngine3_4294769758
-	pos = -0.1231361,6.643262,0.02598373
+	part = fuelTank_4294892966
+	pos = -0.243465,16.98828,0.1584738
 	rot = 0,0,0,1
+	mir = 1,1,1
 	istg = 4
 	dstg = 4
 	sidx = 2
 	sqor = -1
 	attm = 0
-	link = stackDecoupler_4294769688
-	attN = top, fuelTank_4294769782
-	attN = bottom, stackDecoupler_4294769688
+	link = liquidEngine2_4294876942
+	attN = top, fuelTank_4294875362
+	attN = bottom, liquidEngine2_4294876942
 }
+PART
 {
-	part = stackDecoupler_4294769688
-	pos = -0.1231361,6.18262,0.02598373
+	part = liquidEngine2_4294876942
+	pos = -0.243465,15.53682,0.1584738
 	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 3
+	sqor = -1
+	attm = 0
+	link = stackDecoupler_4294892870
+	attN = top, fuelTank_4294892966
+	attN = bottom, stackDecoupler_4294892870
+}
+PART
+{
+	part = stackDecoupler_4294892870
+	pos = -0.243465,14.88009,0.1584738
+	rot = 0,0,0,1
+	mir = 1,1,1
 	istg = 5
 	dstg = 5
 	sidx = 0
 	sqor = -1
 	attm = 0
-	link = advSasModule_4294769654
-	attN = bottom, advSasModule_4294769654
-	attN = top, liquidEngine3_4294769758
+	link = stackTriCoupler_4294892808
+	attN = bottom, stackTriCoupler_4294892808
+	attN = top, liquidEngine2_4294876942
 }
+PART
 {
-	part = advSasModule_4294769654
-	pos = -0.1231361,5.1211,0.02598373
+	part = stackTriCoupler_4294892808
+	pos = -0.2269741,14.26875,0.2235916
 	rot = 0,0,0,1
+	mir = 1,1,1
 	istg = 6
 	dstg = 6
 	sidx = 0
 	sqor = -1
 	attm = 0
-	link = stackTriCoupler_4294769626
-	attN = bottom, stackTriCoupler_4294769626
-	attN = top, stackDecoupler_4294769688
+	link = fuelTank_4294884406
+	link = fuelTank_4294884278
+	link = fuelTank_4294892552
+	attN = top, stackDecoupler_4294892870
+	attN = bottom01, fuelTank_4294884406
+	attN = bottom02, fuelTank_4294884278
+	attN = bottom03, fuelTank_4294892552
 }
+PART
 {
-	part = stackTriCoupler_4294769626
-	pos = -0.1066452,4.831842,0.09110153
-	rot = 0,0,0,1
-	istg = 6
-	dstg = 6
-	sidx = 1
-	sqor = -1
-	attm = 0
-	link = fuelTank_4294769602
-	link = fuelTank_4294769496
-	link = fuelTank_4294769390
-	attN = top, advSasModule_4294769654
-	attN = bottom01, fuelTank_4294769496
-	attN = bottom02, fuelTank_4294769602
-	attN = bottom03, fuelTank_4294769390
-}
-{
-	part = fuelTank_4294769602
-	pos = 0.4524909,3.794105,0.3583215
-	rot = 0,0,0,1
-	istg = 6
-	dstg = 6
-	sidx = 2
-	sqor = -1
-	attm = 0
-	link = fuelTank_4294769578
-	attN = top, stackTriCoupler_4294769626
-	attN = bottom, fuelTank_4294769578
-}
-{
-	part = fuelTank_4294769578
-	pos = 0.4524909,2.278529,0.3583215
-	rot = 0,0,0,1
-	istg = 6
-	dstg = 6
-	sidx = 3
-	sqor = -1
-	attm = 0
-	link = liquidEngine_4294769554
-	attN = top, fuelTank_4294769602
-	attN = bottom, liquidEngine_4294769554
-}
-{
-	part = liquidEngine_4294769554
-	pos = 0.4524909,0.814044,0.3583215
-	rot = 0,0,0,1
-	istg = 6
-	dstg = 6
-	sidx = 4
-	sqor = -1
-	attm = 0
-	attN = top, fuelTank_4294769578
-}
-{
-	part = fuelTank_4294769496
-	pos = -0.6987621,3.794105,0.3583215
-	rot = 0,0,0,1
-	istg = 6
-	dstg = 6
-	sidx = 5
-	sqor = -1
-	attm = 0
-	link = fuelTank_4294769472
-	attN = top, stackTriCoupler_4294769626
-	attN = bottom, fuelTank_4294769472
-}
-{
-	part = fuelTank_4294769472
-	pos = -0.6987621,2.278529,0.3583215
-	rot = 0,0,0,1
-	istg = 6
-	dstg = 6
-	sidx = 6
-	sqor = -1
-	attm = 0
-	link = liquidEngine_4294769448
-	attN = top, fuelTank_4294769496
-	attN = bottom, liquidEngine_4294769448
-}
-{
-	part = liquidEngine_4294769448
-	pos = -0.6987621,0.814044,0.3583215
-	rot = 0,0,0,1
+	part = fuelTank_4294884406
+	pos = -0.8190912,13.23102,0.4908116
+	rot = 0,0.8660254,0,0.5
+	mir = 1,1,1
 	istg = 6
 	dstg = 6
 	sidx = 7
 	sqor = -1
 	attm = 0
-	attN = top, fuelTank_4294769472
+	link = fuelTank_4294884374
+	sym = fuelTank_4294892552
+	sym = fuelTank_4294884278
+	attN = top, stackTriCoupler_4294892808
+	attN = bottom, fuelTank_4294884374
 }
+PART
 {
-	part = fuelTank_4294769390
-	pos = -0.1231361,3.794105,-0.6386924
-	rot = 0,0,0,1
+	part = fuelTank_4294884374
+	pos = -0.8190912,11.71544,0.4908116
+	rot = 0,0.8660254,0,0.5
+	mir = 1,1,1
 	istg = 6
 	dstg = 6
-	sidx = 8
+	sidx = 6
 	sqor = -1
 	attm = 0
-	link = fuelTank_4294769366
-	attN = top, stackTriCoupler_4294769626
-	attN = bottom, fuelTank_4294769366
+	link = liquidEngine_4294884342
+	link = R8winglet_4294883892
+	link = strutConnector_4294882172
+	sym = fuelTank_4294892524
+	sym = fuelTank_4294884246
+	attN = top, fuelTank_4294884406
+	attN = bottom, liquidEngine_4294884342
 }
+PART
 {
-	part = fuelTank_4294769366
-	pos = -0.1231361,2.278529,-0.6386924
-	rot = 0,0,0,1
+	part = liquidEngine_4294884342
+	pos = -0.8190912,10.25095,0.4908116
+	rot = 0,0.8660254,0,0.5
+	mir = 1,1,1
 	istg = 6
 	dstg = 6
-	sidx = 9
+	sidx = 5
 	sqor = -1
 	attm = 0
-	link = liquidEngine_4294769342
-	attN = top, fuelTank_4294769390
-	attN = bottom, liquidEngine_4294769342
+	sym = liquidEngine_4294892496
+	sym = liquidEngine_4294884214
+	attN = top, fuelTank_4294884374
 }
+PART
 {
-	part = liquidEngine_4294769342
-	pos = -0.1231361,0.814044,-0.6386924
-	rot = 0,0,0,1
+	part = R8winglet_4294883892
+	pos = -1.623221,11.1876,0.9550762
+	rot = 0,-0.2588192,0,-0.9659259
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 11
+	sqor = -1
+	attm = 1
+	sym = R8winglet_4294889174
+	sym = R8winglet_4294883844
+	srfN = srfAttach, fuelTank_4294884374
+}
+PART
+{
+	part = strutConnector_4294882172
+	pos = -0.6881723,11.06873,0.002216339
+	rot = 1.581152E-08,0.7933534,-5.367281E-09,-0.6087615
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 13
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_23; pos: -0.1898778,0.02028323,-0.0138793; dir: -0.991727,0.1059364,-0.07249126
+	sym = strutConnector_4294882078
+	sym = strutConnector_4294882018
+	srfN = srfAttach, fuelTank_4294884374
+}
+PART
+{
+	part = fuelTank_4294884278
+	pos = 0.3321619,13.23102,0.4908116
+	rot = 0,0.8660254,0,-0.5000001
+	mir = 1,1,1
 	istg = 6
 	dstg = 6
 	sidx = 10
 	sqor = -1
 	attm = 0
-	attN = top, fuelTank_4294769366
+	link = fuelTank_4294884246
+	sym = fuelTank_4294892552
+	sym = fuelTank_4294884406
+	attN = top, stackTriCoupler_4294892808
+	attN = bottom, fuelTank_4294884246
 }
+PART
 {
-	part = R8winglet_4294769284
-	pos = -0.123136,6.778462,0.9546972
-	rot = 0,-0.7071068,0,-0.7071068
-	istg = 4
-	dstg = 4
-	sidx = 3
+	part = fuelTank_4294884246
+	pos = 0.3321619,11.71544,0.4908116
+	rot = 0,0.8660254,0,-0.5000001
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 9
+	sqor = -1
+	attm = 0
+	link = liquidEngine_4294884214
+	link = R8winglet_4294883844
+	link = strutConnector_4294882018
+	sym = fuelTank_4294892524
+	sym = fuelTank_4294884374
+	attN = top, fuelTank_4294884278
+	attN = bottom, liquidEngine_4294884214
+}
+PART
+{
+	part = liquidEngine_4294884214
+	pos = 0.3321619,10.25095,0.4908116
+	rot = 0,0.8660254,0,-0.5000001
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 8
+	sqor = -1
+	attm = 0
+	sym = liquidEngine_4294892496
+	sym = liquidEngine_4294884342
+	attN = top, fuelTank_4294884246
+}
+PART
+{
+	part = R8winglet_4294883844
+	pos = 1.136292,11.1876,0.9550761
+	rot = 0,-0.9659259,0,-0.2588189
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 12
 	sqor = -1
 	attm = 1
-	sym = R8winglet_4294769196
-	sym = R8winglet_4294769240
-	srfN = srfAttach, fuelTank_4294769782
+	sym = R8winglet_4294889174
+	sym = R8winglet_4294883892
+	srfN = srfAttach, fuelTank_4294884246
 }
+PART
 {
-	part = R8winglet_4294769240
-	pos = 0.6811534,6.778462,-0.4383731
-	rot = 0,-0.9659258,0,0.2588192
-	istg = 4
-	dstg = 4
+	part = strutConnector_4294882018
+	pos = -0.1564336,11.06873,0.6217302
+	rot = 3.257562E-09,-0.1305262,-1.637682E-08,-0.9914449
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 15
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_13; pos: -0.1898785,0.02028323,-0.01387932; dir: -0.991727,0.1059364,-0.07249126
+	sym = strutConnector_4294882172
+	sym = strutConnector_4294882078
+	srfN = srfAttach, fuelTank_4294884246
+}
+PART
+{
+	part = fuelTank_4294892552
+	pos = -0.243465,13.23102,-0.5062023
+	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 1
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294892524
+	sym = fuelTank_4294884406
+	sym = fuelTank_4294884278
+	attN = top, stackTriCoupler_4294892808
+	attN = bottom, fuelTank_4294892524
+}
+PART
+{
+	part = fuelTank_4294892524
+	pos = -0.243465,11.71544,-0.5062023
+	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 2
+	sqor = -1
+	attm = 0
+	link = liquidEngine_4294892496
+	link = R8winglet_4294889174
+	link = strutConnector_4294882078
+	sym = fuelTank_4294884374
+	sym = fuelTank_4294884246
+	attN = top, fuelTank_4294892552
+	attN = bottom, liquidEngine_4294892496
+}
+PART
+{
+	part = liquidEngine_4294892496
+	pos = -0.243465,10.25095,-0.5062023
+	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 3
+	sqor = -1
+	attm = 0
+	sym = liquidEngine_4294884342
+	sym = liquidEngine_4294884214
+	attN = top, fuelTank_4294892524
+}
+PART
+{
+	part = R8winglet_4294889174
+	pos = -0.2434651,11.1876,-1.434731
+	rot = 0,0.7071068,0,-0.7071069
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
 	sidx = 4
 	sqor = -1
 	attm = 1
-	sym = R8winglet_4294769196
-	sym = R8winglet_4294769284
-	srfN = srfAttach, fuelTank_4294769782
+	sym = R8winglet_4294883892
+	sym = R8winglet_4294883844
+	srfN = srfAttach, fuelTank_4294892524
 }
+PART
 {
-	part = R8winglet_4294769196
-	pos = -0.9274255,6.778462,-0.438373
-	rot = 0,0.258819,0,-0.9659259
-	istg = 4
-	dstg = 4
-	sidx = 5
+	part = strutConnector_4294882078
+	pos = 0.1142115,11.06873,-0.1485256
+	rot = 1.255396E-08,0.9238796,1.100954E-08,0.3826835
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 14
 	sqor = -1
 	attm = 1
-	sym = R8winglet_4294769284
-	sym = R8winglet_4294769240
-	srfN = srfAttach, fuelTank_4294769782
+	cData = tgt: fuelTank_18; pos: -0.1898777,0.02028323,-0.01387926; dir: -0.991727,0.1059364,-0.07249126
+	sym = strutConnector_4294882172
+	sym = strutConnector_4294882018
+	srfN = srfAttach, fuelTank_4294892524
 }
-{
-	part = winglet_4294769152
-	pos = -0.9948126,10.88156,-0.4772787
-	rot = 0,0.258819,0,-0.9659259
-	istg = 2
-	dstg = 2
-	sidx = 3
-	sqor = -1
-	attm = 1
-	sym = winglet_4294769088
-	sym = winglet_4294769120
-	srfN = srfAttach, fuelTankSmall_4294769930
-}
-{
-	part = winglet_4294769120
-	pos = -0.123136,10.88156,1.032509
-	rot = 0,-0.7071069,0,-0.7071068
-	istg = 2
-	dstg = 2
-	sidx = 4
-	sqor = -1
-	attm = 1
-	sym = winglet_4294769088
-	sym = winglet_4294769152
-	srfN = srfAttach, fuelTankSmall_4294769930
-}
-{
-	part = winglet_4294769088
-	pos = 0.7485402,10.88156,-0.4772789
-	rot = 0,0.9659259,0,-0.2588191
-	istg = 2
-	dstg = 2
-	sidx = 5
-	sqor = -1
-	attm = 1
-	sym = winglet_4294769152
-	sym = winglet_4294769120
-	srfN = srfAttach, fuelTankSmall_4294769930
-}
-// Do not edit this file by hand. There are no cheating opportunities here. Go away.
