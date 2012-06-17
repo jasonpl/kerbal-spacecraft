@@ -1,0 +1,3029 @@
+// SFS Craft File
+
+ship = mn-1kt-prototype
+version = 0.15.2
+type = VAB
+PART
+{
+	part = mumech.mechjebpod_4294898486
+	pos = -0.07307313,19.18915,0.03943377
+	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = advSasModule_4294898414
+	attN = bottom, advSasModule_4294898414
+}
+PART
+{
+	part = advSasModule_4294898414
+	pos = -0.07307313,18.42124,0.03943377
+	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294898386
+	attN = top, mumech.mechjebpod_4294898486
+	attN = bottom, fuelTank_4294898386
+}
+PART
+{
+	part = fuelTank_4294898386
+	pos = -0.07307313,17.67716,0.03943377
+	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 2
+	sqor = -1
+	attm = 0
+	link = fuelTankSmall_4294898358
+	link = fuelTank_4294898330
+	link = fuelTank_4294898222
+	link = fuelTank_4294898114
+	link = fuelTank_4294898006
+	link = fuelTank_4294897898
+	link = fuelTank_4294897790
+	attN = top, advSasModule_4294898414
+	attN = bottom, fuelTankSmall_4294898358
+}
+PART
+{
+	part = fuelTankSmall_4294898358
+	pos = -0.07307313,16.50296,0.03943377
+	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 3
+	sqor = -1
+	attm = 0
+	link = toroidalAerospike_4294897682
+	link = structuralPylon_4294897622
+	link = structuralPylon_4294897576
+	link = structuralPylon_4294897530
+	link = structuralPylon_4294897484
+	link = structuralPylon_4294897438
+	link = structuralPylon_4294897392
+	attN = top, fuelTank_4294898386
+	attN = bottom, toroidalAerospike_4294897682
+}
+PART
+{
+	part = fuelTank_4294898330
+	pos = 0.7907677,17.59745,0.5381724
+	rot = 0,0.9659259,0,0.258819
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 4
+	sqor = -1
+	attm = 1
+	link = fuelLine_4294898302
+	sym = fuelTank_4294897790
+	sym = fuelTank_4294898222
+	sym = fuelTank_4294898114
+	sym = fuelTank_4294898006
+	sym = fuelTank_4294897898
+	srfN = srfAttach, fuelTank_4294898386
+}
+PART
+{
+	part = fuelLine_4294898302
+	pos = 0.54278,18.26665,0.1086448
+	rot = -6.450021E-09,-0.5000002,-4.899292E-08,0.8660253
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 5
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_2; pos: -0.08415515,0.09045218,0.09066299; dir: -0.5491579,0.5902555,0.5916282; rot: -0.6123723,0.3535535,0.3535535,0.6123724
+	sym = fuelLine_4294897762
+	sym = fuelLine_4294898194
+	sym = fuelLine_4294898086
+	sym = fuelLine_4294897978
+	sym = fuelLine_4294897870
+	srfN = srfAttach, fuelTank_4294898330
+}
+PART
+{
+	part = fuelTank_4294898222
+	pos = 0.7907676,17.59745,-0.4593051
+	rot = 0,0.9659259,0,-0.2588191
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 6
+	sqor = -1
+	attm = 1
+	link = fuelLine_4294898194
+	sym = fuelTank_4294897790
+	sym = fuelTank_4294898330
+	sym = fuelTank_4294898114
+	sym = fuelTank_4294898006
+	sym = fuelTank_4294897898
+	srfN = srfAttach, fuelTank_4294898386
+}
+PART
+{
+	part = fuelLine_4294898194
+	pos = 0.2947918,18.26665,-0.4593054
+	rot = -3.008234E-08,-2.878683E-08,-3.920411E-08,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 7
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_2; pos: -0.08415518,0.09045218,0.09066293; dir: -0.5491579,0.5902555,0.5916282; rot: -0.6123724,0.3535535,0.3535536,0.6123724
+	sym = fuelLine_4294897762
+	sym = fuelLine_4294898302
+	sym = fuelLine_4294898086
+	sym = fuelLine_4294897978
+	sym = fuelLine_4294897870
+	srfN = srfAttach, fuelTank_4294898222
+}
+PART
+{
+	part = fuelTank_4294898114
+	pos = -0.07307328,17.59745,-0.9580436
+	rot = 0,0.7071068,0,-0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 8
+	sqor = -1
+	attm = 1
+	link = fuelLine_4294898086
+	sym = fuelTank_4294897790
+	sym = fuelTank_4294898330
+	sym = fuelTank_4294898222
+	sym = fuelTank_4294898006
+	sym = fuelTank_4294897898
+	srfN = srfAttach, fuelTank_4294898386
+}
+PART
+{
+	part = fuelLine_4294898086
+	pos = -0.3210612,18.26665,-0.5285164
+	rot = -4.565412E-08,0.5000001,-1.891058E-08,0.8660254
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 9
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_2; pos: -0.08415484,0.09045218,0.09066309; dir: -0.5491579,0.5902555,0.5916282; rot: -0.6123725,0.3535534,0.3535534,0.6123725
+	sym = fuelLine_4294897762
+	sym = fuelLine_4294898302
+	sym = fuelLine_4294898194
+	sym = fuelLine_4294897978
+	sym = fuelLine_4294897870
+	srfN = srfAttach, fuelTank_4294898114
+}
+PART
+{
+	part = fuelTank_4294898006
+	pos = -0.9369141,17.59745,-0.4593049
+	rot = 0,0.258819,0,-0.9659259
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 10
+	sqor = -1
+	attm = 1
+	link = fuelLine_4294897978
+	sym = fuelTank_4294897790
+	sym = fuelTank_4294898330
+	sym = fuelTank_4294898222
+	sym = fuelTank_4294898114
+	sym = fuelTank_4294897898
+	srfN = srfAttach, fuelTank_4294898386
+}
+PART
+{
+	part = fuelLine_4294897978
+	pos = -0.6889267,18.26665,-0.02977762
+	rot = -4.899291E-08,0.8660253,6.450024E-09,0.5000001
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 11
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_2; pos: -0.08415499,0.09045218,0.0906634; dir: -0.5491579,0.5902555,0.5916282; rot: -0.6123724,0.3535535,0.3535535,0.6123725
+	sym = fuelLine_4294897762
+	sym = fuelLine_4294898302
+	sym = fuelLine_4294898194
+	sym = fuelLine_4294898086
+	sym = fuelLine_4294897870
+	srfN = srfAttach, fuelTank_4294898006
+}
+PART
+{
+	part = fuelTank_4294897898
+	pos = -0.936914,17.59745,0.5381724
+	rot = 0,-0.258819,0,-0.9659259
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 12
+	sqor = -1
+	attm = 1
+	link = fuelLine_4294897870
+	sym = fuelTank_4294897790
+	sym = fuelTank_4294898330
+	sym = fuelTank_4294898222
+	sym = fuelTank_4294898114
+	sym = fuelTank_4294898006
+	srfN = srfAttach, fuelTank_4294898386
+}
+PART
+{
+	part = fuelLine_4294897870
+	pos = -0.4409388,18.26665,0.5381726
+	rot = -3.92041E-08,1,3.008233E-08,1.151473E-07
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 13
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_2; pos: -0.084155,0.09045218,0.09066341; dir: -0.5491579,0.5902555,0.5916282; rot: -0.6123724,0.3535535,0.3535535,0.6123725
+	sym = fuelLine_4294897762
+	sym = fuelLine_4294898302
+	sym = fuelLine_4294898194
+	sym = fuelLine_4294898086
+	sym = fuelLine_4294897978
+	srfN = srfAttach, fuelTank_4294897898
+}
+PART
+{
+	part = fuelTank_4294897790
+	pos = -0.07307307,17.59745,1.036911
+	rot = 0,0.7071068,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 14
+	sqor = -1
+	attm = 1
+	link = fuelLine_4294897762
+	sym = fuelTank_4294898330
+	sym = fuelTank_4294898222
+	sym = fuelTank_4294898114
+	sym = fuelTank_4294898006
+	sym = fuelTank_4294897898
+	srfN = srfAttach, fuelTank_4294898386
+}
+PART
+{
+	part = fuelLine_4294897762
+	pos = 0.1749149,18.26665,0.6073837
+	rot = 1.891058E-08,-0.8660255,-4.565411E-08,0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 15
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_2; pos: -0.08415524,0.09045218,0.09066314; dir: -0.5491579,0.5902555,0.5916282; rot: -0.6123724,0.3535535,0.3535536,0.6123725
+	sym = fuelLine_4294898302
+	sym = fuelLine_4294898194
+	sym = fuelLine_4294898086
+	sym = fuelLine_4294897978
+	sym = fuelLine_4294897870
+	srfN = srfAttach, fuelTank_4294897790
+}
+PART
+{
+	part = toroidalAerospike_4294897682
+	pos = -0.07307313,16.05876,0.03943377
+	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 16
+	sqor = -1
+	attm = 0
+	attN = top, fuelTankSmall_4294898358
+}
+PART
+{
+	part = structuralPylon_4294897622
+	pos = -0.07307316,16.07366,-0.4589581
+	rot = 9.683704E-09,0.7071068,-7.430569E-09,-0.7071068
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 0
+	sqor = -1
+	attm = 1
+	link = fuelTank_4294897346
+	sym = structuralPylon_4294897392
+	sym = structuralPylon_4294897576
+	sym = structuralPylon_4294897530
+	sym = structuralPylon_4294897484
+	sym = structuralPylon_4294897438
+	srfN = srfAttach, fuelTankSmall_4294898358
+}
+PART
+{
+	part = structuralPylon_4294897576
+	pos = -0.5046932,16.07366,-0.2097621
+	rot = 4.671048E-09,0.258819,-1.127691E-08,-0.9659259
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 1
+	sqor = -1
+	attm = 1
+	link = fuelTank_4294897262
+	sym = structuralPylon_4294897392
+	sym = structuralPylon_4294897622
+	sym = structuralPylon_4294897530
+	sym = structuralPylon_4294897484
+	sym = structuralPylon_4294897438
+	srfN = srfAttach, fuelTankSmall_4294898358
+}
+PART
+{
+	part = structuralPylon_4294897530
+	pos = -0.5046931,16.07366,0.2886298
+	rot = -1.59321E-09,-0.2588191,-1.210162E-08,-0.9659259
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 2
+	sqor = -1
+	attm = 1
+	link = fuelTank_4294897178
+	sym = structuralPylon_4294897392
+	sym = structuralPylon_4294897622
+	sym = structuralPylon_4294897576
+	sym = structuralPylon_4294897484
+	sym = structuralPylon_4294897438
+	srfN = srfAttach, fuelTankSmall_4294898358
+}
+PART
+{
+	part = structuralPylon_4294897484
+	pos = -0.07307307,16.07366,0.5378257
+	rot = -7.430568E-09,-0.7071068,-9.683703E-09,-0.7071068
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 3
+	sqor = -1
+	attm = 1
+	link = fuelTank_4294897094
+	sym = structuralPylon_4294897392
+	sym = structuralPylon_4294897622
+	sym = structuralPylon_4294897576
+	sym = structuralPylon_4294897530
+	sym = structuralPylon_4294897438
+	srfN = srfAttach, fuelTankSmall_4294898358
+}
+PART
+{
+	part = structuralPylon_4294897438
+	pos = 0.3585469,16.07366,0.2886297
+	rot = -1.127691E-08,-0.9659259,-4.67105E-09,-0.2588191
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 4
+	sqor = -1
+	attm = 1
+	link = fuelTank_4294897010
+	sym = structuralPylon_4294897392
+	sym = structuralPylon_4294897622
+	sym = structuralPylon_4294897576
+	sym = structuralPylon_4294897530
+	sym = structuralPylon_4294897484
+	srfN = srfAttach, fuelTankSmall_4294898358
+}
+PART
+{
+	part = structuralPylon_4294897392
+	pos = 0.3585469,16.07366,-0.2097622
+	rot = 1.210162E-08,0.9659259,-1.593209E-09,-0.2588191
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 5
+	sqor = -1
+	attm = 1
+	link = fuelTank_4294896926
+	sym = structuralPylon_4294897622
+	sym = structuralPylon_4294897576
+	sym = structuralPylon_4294897530
+	sym = structuralPylon_4294897484
+	sym = structuralPylon_4294897438
+	srfN = srfAttach, fuelTankSmall_4294898358
+}
+PART
+{
+	part = fuelTank_4294897346
+	pos = -0.07307336,15.81351,-1.502322
+	rot = -1.480095E-15,0.7071068,1.091258E-15,-0.7071068
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 0
+	sqor = -1
+	attm = 1
+	link = fuelTank_4294897318
+	sym = fuelTank_4294896926
+	sym = fuelTank_4294897262
+	sym = fuelTank_4294897178
+	sym = fuelTank_4294897094
+	sym = fuelTank_4294897010
+	srfN = srfAttach, structuralPylon_4294897622
+	attN = bottom, fuelTank_4294897318
+}
+PART
+{
+	part = fuelTank_4294897318
+	pos = -0.07307336,14.31096,-1.502322
+	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 1
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294897290
+	sym = fuelTank_4294896898
+	sym = fuelTank_4294897234
+	sym = fuelTank_4294897150
+	sym = fuelTank_4294897066
+	sym = fuelTank_4294896982
+	attN = top, fuelTank_4294897346
+	attN = bottom, fuelTank_4294897290
+}
+PART
+{
+	part = fuelTank_4294897290
+	pos = -0.07307336,12.8084,-1.502322
+	rot = 3.140185E-16,-4.300428E-24,-3.140185E-16,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 2
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294896814
+	sym = fuelTank_4294896870
+	sym = fuelTank_4294897206
+	sym = fuelTank_4294897122
+	sym = fuelTank_4294897038
+	sym = fuelTank_4294896954
+	attN = top, fuelTank_4294897318
+	attN = bottom, fuelTank_4294896814
+}
+PART
+{
+	part = fuelTank_4294897262
+	pos = -1.408273,15.81351,-0.7314438
+	rot = -1.990033E-16,0.258819,-4.884964E-16,-0.9659259
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 3
+	sqor = -1
+	attm = 1
+	link = fuelTank_4294897234
+	sym = fuelTank_4294896926
+	sym = fuelTank_4294897346
+	sym = fuelTank_4294897178
+	sym = fuelTank_4294897094
+	sym = fuelTank_4294897010
+	srfN = srfAttach, structuralPylon_4294897576
+	attN = bottom, fuelTank_4294897234
+}
+PART
+{
+	part = fuelTank_4294897234
+	pos = -1.408273,14.31096,-0.7314439
+	rot = 7.471843E-17,0.5000001,-3.992594E-16,0.8660254
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 4
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294897206
+	sym = fuelTank_4294896898
+	sym = fuelTank_4294897318
+	sym = fuelTank_4294897150
+	sym = fuelTank_4294897066
+	sym = fuelTank_4294896982
+	attN = top, fuelTank_4294897262
+	attN = bottom, fuelTank_4294897206
+}
+PART
+{
+	part = fuelTank_4294897206
+	pos = -1.408273,12.8084,-0.731444
+	rot = 8.176942E-16,0.5000001,2.595754E-16,0.8660254
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 5
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294896786
+	sym = fuelTank_4294896870
+	sym = fuelTank_4294897290
+	sym = fuelTank_4294897122
+	sym = fuelTank_4294897038
+	sym = fuelTank_4294896954
+	attN = top, fuelTank_4294897234
+	attN = bottom, fuelTank_4294896786
+}
+PART
+{
+	part = fuelTank_4294897178
+	pos = -1.408272,15.81351,0.810312
+	rot = -2.782533E-16,-0.2588191,-4.257721E-16,-0.9659259
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 6
+	sqor = -1
+	attm = 1
+	link = fuelTank_4294897150
+	sym = fuelTank_4294896926
+	sym = fuelTank_4294897346
+	sym = fuelTank_4294897262
+	sym = fuelTank_4294897094
+	sym = fuelTank_4294897010
+	srfN = srfAttach, structuralPylon_4294897530
+	attN = bottom, fuelTank_4294897150
+}
+PART
+{
+	part = fuelTank_4294897150
+	pos = -1.408273,14.31096,0.8103121
+	rot = -5.951981E-16,0.8660255,6.559954E-16,0.5000001
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 7
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294897122
+	sym = fuelTank_4294896898
+	sym = fuelTank_4294897318
+	sym = fuelTank_4294897234
+	sym = fuelTank_4294897066
+	sym = fuelTank_4294896982
+	attN = top, fuelTank_4294897178
+	attN = bottom, fuelTank_4294897122
+}
+PART
+{
+	part = fuelTank_4294897122
+	pos = -1.408273,12.8084,0.8103122
+	rot = 2.627164E-16,0.8660255,4.261178E-16,0.5000001
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 8
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294896702
+	sym = fuelTank_4294896870
+	sym = fuelTank_4294897290
+	sym = fuelTank_4294897206
+	sym = fuelTank_4294897038
+	sym = fuelTank_4294896954
+	attN = top, fuelTank_4294897150
+	attN = bottom, fuelTank_4294896702
+}
+PART
+{
+	part = fuelTank_4294897094
+	pos = -0.07307256,15.81351,1.58119
+	rot = 3.327912E-17,-0.7071068,-8.014128E-17,-0.7071068
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 9
+	sqor = -1
+	attm = 1
+	link = fuelTank_4294897066
+	sym = fuelTank_4294896926
+	sym = fuelTank_4294897346
+	sym = fuelTank_4294897262
+	sym = fuelTank_4294897178
+	sym = fuelTank_4294897010
+	srfN = srfAttach, structuralPylon_4294897484
+	attN = bottom, fuelTank_4294897066
+}
+PART
+{
+	part = fuelTank_4294897066
+	pos = -0.07307256,14.31096,1.581191
+	rot = -3.140185E-16,1,9.420555E-16,-3.906689E-17
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 10
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294897038
+	sym = fuelTank_4294896898
+	sym = fuelTank_4294897318
+	sym = fuelTank_4294897234
+	sym = fuelTank_4294897150
+	sym = fuelTank_4294896982
+	attN = top, fuelTank_4294897094
+	attN = bottom, fuelTank_4294897038
+}
+PART
+{
+	part = fuelTank_4294897038
+	pos = -0.07307256,12.8084,1.581191
+	rot = -3.140185E-16,1,9.420555E-16,-3.906689E-17
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 11
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294896758
+	sym = fuelTank_4294896870
+	sym = fuelTank_4294897290
+	sym = fuelTank_4294897206
+	sym = fuelTank_4294897122
+	sym = fuelTank_4294896954
+	attN = top, fuelTank_4294897066
+	attN = bottom, fuelTank_4294896758
+}
+PART
+{
+	part = fuelTank_4294897010
+	pos = 1.262127,15.81351,0.8103121
+	rot = -2.461708E-15,-0.9659259,-9.70272E-16,-0.2588191
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 12
+	sqor = -1
+	attm = 1
+	link = fuelTank_4294896982
+	sym = fuelTank_4294896926
+	sym = fuelTank_4294897346
+	sym = fuelTank_4294897262
+	sym = fuelTank_4294897178
+	sym = fuelTank_4294897094
+	srfN = srfAttach, structuralPylon_4294897438
+	attN = bottom, fuelTank_4294896982
+}
+PART
+{
+	part = fuelTank_4294896982
+	pos = 1.262127,14.31096,0.8103121
+	rot = 4.617266E-16,0.8660255,5.036898E-16,-0.5
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 13
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294896954
+	sym = fuelTank_4294896898
+	sym = fuelTank_4294897318
+	sym = fuelTank_4294897234
+	sym = fuelTank_4294897150
+	sym = fuelTank_4294897066
+	attN = top, fuelTank_4294897010
+	attN = bottom, fuelTank_4294896954
+}
+PART
+{
+	part = fuelTank_4294896954
+	pos = 1.262128,12.8084,0.8103123
+	rot = 2.31849E-16,0.8660255,1.361604E-15,-0.5
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 14
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294896730
+	sym = fuelTank_4294896870
+	sym = fuelTank_4294897290
+	sym = fuelTank_4294897206
+	sym = fuelTank_4294897122
+	sym = fuelTank_4294897038
+	attN = top, fuelTank_4294896982
+	attN = bottom, fuelTank_4294896730
+}
+PART
+{
+	part = fuelTank_4294896926
+	pos = 1.262127,15.81351,-0.7314447
+	rot = 1.082544E-15,0.9659259,-2.596053E-16,-0.2588191
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 15
+	sqor = -1
+	attm = 1
+	link = fuelTank_4294896898
+	sym = fuelTank_4294897346
+	sym = fuelTank_4294897262
+	sym = fuelTank_4294897178
+	sym = fuelTank_4294897094
+	sym = fuelTank_4294897010
+	srfN = srfAttach, structuralPylon_4294897392
+	attN = bottom, fuelTank_4294896898
+}
+PART
+{
+	part = fuelTank_4294896898
+	pos = 1.262127,14.31096,-0.731445
+	rot = -5.774908E-16,-0.5000001,-2.139477E-16,0.8660255
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 16
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294896870
+	sym = fuelTank_4294897318
+	sym = fuelTank_4294897234
+	sym = fuelTank_4294897150
+	sym = fuelTank_4294897066
+	sym = fuelTank_4294896982
+	attN = top, fuelTank_4294896926
+	attN = bottom, fuelTank_4294896870
+}
+PART
+{
+	part = fuelTank_4294896870
+	pos = 1.262127,12.8084,-0.731445
+	rot = -1.485335E-16,-0.5000001,-3.288865E-16,0.8660255
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 17
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294896842
+	sym = fuelTank_4294897290
+	sym = fuelTank_4294897206
+	sym = fuelTank_4294897122
+	sym = fuelTank_4294897038
+	sym = fuelTank_4294896954
+	attN = top, fuelTank_4294896898
+	attN = bottom, fuelTank_4294896842
+}
+PART
+{
+	part = fuelTank_4294896842
+	pos = 1.262127,11.30585,-0.7314451
+	rot = -1.436735E-16,-1,-5.361966E-16,1.928041E-17
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 18
+	sqor = -1
+	attm = 0
+	link = liquidEngine2_4294896674
+	link = strutConnector_4294896210
+	link = radialDecoupler_4294895884
+	sym = fuelTank_4294896702
+	sym = fuelTank_4294896814
+	sym = fuelTank_4294896786
+	sym = fuelTank_4294896758
+	sym = fuelTank_4294896730
+	attN = top, fuelTank_4294896870
+	attN = bottom, liquidEngine2_4294896674
+}
+PART
+{
+	part = fuelTank_4294896814
+	pos = -0.07307336,11.30585,-1.502322
+	rot = -4.219208E-16,-0.8660256,-1.59203E-16,0.5
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 19
+	sqor = -1
+	attm = 0
+	link = liquidEngine2_4294896606
+	link = strutConnector_4294896154
+	link = radialDecoupler_4294895700
+	sym = fuelTank_4294896702
+	sym = fuelTank_4294896842
+	sym = fuelTank_4294896786
+	sym = fuelTank_4294896758
+	sym = fuelTank_4294896730
+	attN = top, fuelTank_4294897290
+	attN = bottom, liquidEngine2_4294896606
+}
+PART
+{
+	part = fuelTank_4294896786
+	pos = -1.408273,11.30585,-0.7314439
+	rot = -4.909081E-17,-0.5,-9.785651E-16,0.8660255
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 20
+	sqor = -1
+	attm = 0
+	link = liquidEngine2_4294896538
+	link = strutConnector_4294896098
+	link = radialDecoupler_4294895838
+	sym = fuelTank_4294896702
+	sym = fuelTank_4294896842
+	sym = fuelTank_4294896814
+	sym = fuelTank_4294896758
+	sym = fuelTank_4294896730
+	attN = top, fuelTank_4294897206
+	attN = bottom, liquidEngine2_4294896538
+}
+PART
+{
+	part = fuelTank_4294896758
+	pos = -0.07307256,11.30585,1.581191
+	rot = -1.332418E-16,0.5000001,6.527205E-16,0.8660254
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 21
+	sqor = -1
+	attm = 0
+	link = liquidEngine2_4294896470
+	link = strutConnector_4294896042
+	link = radialDecoupler_4294895792
+	sym = fuelTank_4294896702
+	sym = fuelTank_4294896842
+	sym = fuelTank_4294896814
+	sym = fuelTank_4294896786
+	sym = fuelTank_4294896730
+	attN = top, fuelTank_4294897038
+	attN = bottom, liquidEngine2_4294896470
+}
+PART
+{
+	part = fuelTank_4294896730
+	pos = 1.262128,11.30585,0.8103124
+	rot = -1.108754E-16,0.8660254,4.984527E-16,0.5000001
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 22
+	sqor = -1
+	attm = 0
+	link = liquidEngine2_4294896402
+	link = strutConnector_4294895986
+	link = radialDecoupler_4294895746
+	sym = fuelTank_4294896702
+	sym = fuelTank_4294896842
+	sym = fuelTank_4294896814
+	sym = fuelTank_4294896786
+	sym = fuelTank_4294896758
+	attN = top, fuelTank_4294896954
+	attN = bottom, liquidEngine2_4294896402
+}
+PART
+{
+	part = fuelTank_4294896702
+	pos = -1.408273,11.30585,0.8103122
+	rot = -3.217179E-16,-4.030649E-24,8.620408E-17,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 23
+	sqor = -1
+	attm = 0
+	link = liquidEngine2_4294896334
+	link = strutConnector_4294896266
+	link = radialDecoupler_4294895930
+	sym = fuelTank_4294896842
+	sym = fuelTank_4294896814
+	sym = fuelTank_4294896786
+	sym = fuelTank_4294896758
+	sym = fuelTank_4294896730
+	attN = top, fuelTank_4294897122
+	attN = bottom, liquidEngine2_4294896334
+}
+PART
+{
+	part = liquidEngine2_4294896674
+	pos = 1.262128,9.854391,-0.7314451
+	rot = -5.746939E-17,-1,-2.144786E-16,1.928041E-17
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 24
+	sqor = -1
+	attm = 0
+	sym = liquidEngine2_4294896334
+	sym = liquidEngine2_4294896606
+	sym = liquidEngine2_4294896538
+	sym = liquidEngine2_4294896470
+	sym = liquidEngine2_4294896402
+	attN = top, fuelTank_4294896842
+}
+PART
+{
+	part = liquidEngine2_4294896606
+	pos = -0.07307336,9.854391,-1.502322
+	rot = -2.227145E-16,-0.8660256,-1.614427E-16,0.5000001
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 25
+	sqor = -1
+	attm = 0
+	sym = liquidEngine2_4294896334
+	sym = liquidEngine2_4294896674
+	sym = liquidEngine2_4294896538
+	sym = liquidEngine2_4294896470
+	sym = liquidEngine2_4294896402
+	attN = top, fuelTank_4294896814
+}
+PART
+{
+	part = liquidEngine2_4294896538
+	pos = -1.408273,9.854391,-0.7314439
+	rot = -6.448965E-17,-0.5,-6.318125E-17,0.8660255
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 26
+	sqor = -1
+	attm = 0
+	sym = liquidEngine2_4294896334
+	sym = liquidEngine2_4294896674
+	sym = liquidEngine2_4294896606
+	sym = liquidEngine2_4294896470
+	sym = liquidEngine2_4294896402
+	attN = top, fuelTank_4294896786
+}
+PART
+{
+	part = liquidEngine2_4294896470
+	pos = -0.07307256,9.854391,1.581191
+	rot = 1.830163E-16,0.5,5.379084E-16,0.8660255
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 27
+	sqor = -1
+	attm = 0
+	sym = liquidEngine2_4294896334
+	sym = liquidEngine2_4294896674
+	sym = liquidEngine2_4294896606
+	sym = liquidEngine2_4294896538
+	sym = liquidEngine2_4294896402
+	attN = top, fuelTank_4294896758
+}
+PART
+{
+	part = liquidEngine2_4294896402
+	pos = 1.262128,9.854391,0.8103124
+	rot = -2.467137E-17,0.8660254,1.767347E-16,0.5000001
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 28
+	sqor = -1
+	attm = 0
+	sym = liquidEngine2_4294896334
+	sym = liquidEngine2_4294896674
+	sym = liquidEngine2_4294896606
+	sym = liquidEngine2_4294896538
+	sym = liquidEngine2_4294896470
+	attN = top, fuelTank_4294896730
+}
+PART
+{
+	part = liquidEngine2_4294896334
+	pos = -1.408273,9.854391,0.8103122
+	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 29
+	sqor = -1
+	attm = 0
+	sym = liquidEngine2_4294896674
+	sym = liquidEngine2_4294896606
+	sym = liquidEngine2_4294896538
+	sym = liquidEngine2_4294896470
+	sym = liquidEngine2_4294896402
+	attN = top, fuelTank_4294896702
+}
+PART
+{
+	part = strutConnector_4294896266
+	pos = -1.54064,10.87393,0.3163125
+	rot = 0.06733288,0.6082014,-0.02796701,-0.7904274
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 30
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_32; pos: -0.528006,0.1331719,-0.1284763; dir: -0.943724,0.2380233,-0.2296298
+	sym = strutConnector_4294895986
+	sym = strutConnector_4294896210
+	sym = strutConnector_4294896154
+	sym = strutConnector_4294896098
+	sym = strutConnector_4294896042
+	srfN = srfAttach, fuelTank_4294896702
+}
+PART
+{
+	part = strutConnector_4294896210
+	pos = 1.394495,10.87393,-0.2374451
+	rot = 0.02796701,0.7904274,0.06733288,0.6082015
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 31
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_101; pos: -0.5280075,0.1331721,-0.1284752; dir: -0.943724,0.2380233,-0.2296298
+	sym = strutConnector_4294895986
+	sym = strutConnector_4294896266
+	sym = strutConnector_4294896154
+	sym = strutConnector_4294896098
+	sym = strutConnector_4294896042
+	srfN = srfAttach, fuelTank_4294896842
+}
+PART
+{
+	part = strutConnector_4294896154
+	pos = 0.4209268,10.87393,-1.369956
+	rot = 0.05788657,0.988631,0.04432848,0.1315042
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 32
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_124; pos: -0.5280062,0.1331728,-0.128475; dir: -0.943724,0.2380233,-0.2296298
+	sym = strutConnector_4294895986
+	sym = strutConnector_4294896266
+	sym = strutConnector_4294896210
+	sym = strutConnector_4294896098
+	sym = strutConnector_4294896042
+	srfN = srfAttach, fuelTank_4294896814
+}
+PART
+{
+	part = strutConnector_4294896098
+	pos = -1.04664,10.87393,-1.093077
+	rot = 0.07229549,0.9219315,0.009446288,-0.3804296
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 33
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_9; pos: -0.5280051,0.1331718,-0.1284756; dir: -0.943724,0.2380233,-0.2296298
+	sym = strutConnector_4294895986
+	sym = strutConnector_4294896266
+	sym = strutConnector_4294896210
+	sym = strutConnector_4294896154
+	sym = strutConnector_4294896042
+	srfN = srfAttach, fuelTank_4294896786
+}
+PART
+{
+	part = strutConnector_4294896042
+	pos = -0.5670727,10.87393,1.448825
+	rot = 0.04432847,0.1315043,-0.05788657,-0.9886307
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 34
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_55; pos: -0.5280066,0.133172,-0.1284765; dir: -0.943724,0.2380233,-0.2296298
+	sym = strutConnector_4294895986
+	sym = strutConnector_4294896266
+	sym = strutConnector_4294896210
+	sym = strutConnector_4294896154
+	sym = strutConnector_4294896098
+	srfN = srfAttach, fuelTank_4294896758
+}
+PART
+{
+	part = strutConnector_4294895986
+	pos = 0.9004951,10.87393,1.171945
+	rot = 0.009446305,-0.3804294,-0.0722955,-0.9219316
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 35
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_78; pos: -0.5280057,0.1331719,-0.1284755; dir: -0.943724,0.2380233,-0.2296298
+	sym = strutConnector_4294896266
+	sym = strutConnector_4294896210
+	sym = strutConnector_4294896154
+	sym = strutConnector_4294896098
+	sym = strutConnector_4294896042
+	srfN = srfAttach, fuelTank_4294896730
+}
+PART
+{
+	part = radialDecoupler_4294895930
+	pos = -1.837314,10.67648,1.058019
+	rot = -6.072642E-17,-0.2588192,4.807766E-19,-0.965926
+	mir = 1,1,1
+	istg = 3
+	dstg = 3
+	sidx = 0
+	sqor = -1
+	attm = 1
+	link = fuelTank_4294895626
+	sym = radialDecoupler_4294895700
+	sym = radialDecoupler_4294895884
+	sym = radialDecoupler_4294895838
+	sym = radialDecoupler_4294895792
+	sym = radialDecoupler_4294895746
+	srfN = srfAttach, fuelTank_4294896702
+}
+PART
+{
+	part = radialDecoupler_4294895884
+	pos = 1.691169,10.67648,-0.9791523
+	rot = 6.562908E-16,0.965926,-4.207832E-17,-0.2588192
+	mir = 1,1,1
+	istg = 3
+	dstg = 3
+	sidx = 1
+	sqor = -1
+	attm = 1
+	link = fuelTank_4294895598
+	sym = radialDecoupler_4294895700
+	sym = radialDecoupler_4294895930
+	sym = radialDecoupler_4294895838
+	sym = radialDecoupler_4294895792
+	sym = radialDecoupler_4294895746
+	srfN = srfAttach, fuelTank_4294896842
+}
+PART
+{
+	part = radialDecoupler_4294895838
+	pos = -1.837314,10.67648,-0.979151
+	rot = -4.580434E-16,0.2588189,6.396737E-16,-0.9659259
+	mir = 1,1,1
+	istg = 3
+	dstg = 3
+	sidx = 2
+	sqor = -1
+	attm = 1
+	link = fuelTank_4294895514
+	sym = radialDecoupler_4294895700
+	sym = radialDecoupler_4294895930
+	sym = radialDecoupler_4294895884
+	sym = radialDecoupler_4294895792
+	sym = radialDecoupler_4294895746
+	srfN = srfAttach, fuelTank_4294896786
+}
+PART
+{
+	part = radialDecoupler_4294895792
+	pos = -0.0730723,10.67648,2.076605
+	rot = 1.117837E-16,-0.7071068,-1.586459E-16,-0.7071068
+	mir = 1,1,1
+	istg = 3
+	dstg = 3
+	sidx = 3
+	sqor = -1
+	attm = 1
+	link = fuelTank_4294895570
+	sym = radialDecoupler_4294895700
+	sym = radialDecoupler_4294895930
+	sym = radialDecoupler_4294895884
+	sym = radialDecoupler_4294895838
+	sym = radialDecoupler_4294895746
+	srfN = srfAttach, fuelTank_4294896758
+}
+PART
+{
+	part = radialDecoupler_4294895746
+	pos = 1.691169,10.67648,1.05802
+	rot = -1.23655E-15,-0.965926,-5.62083E-16,-0.2588191
+	mir = 1,1,1
+	istg = 3
+	dstg = 3
+	sidx = 4
+	sqor = -1
+	attm = 1
+	link = fuelTank_4294895542
+	sym = radialDecoupler_4294895700
+	sym = radialDecoupler_4294895930
+	sym = radialDecoupler_4294895884
+	sym = radialDecoupler_4294895838
+	sym = radialDecoupler_4294895792
+	srfN = srfAttach, fuelTank_4294896730
+}
+PART
+{
+	part = radialDecoupler_4294895700
+	pos = -0.0730734,10.67648,-1.997736
+	rot = -4.860902E-16,0.7071068,4.249328E-16,-0.707107
+	mir = 1,1,1
+	istg = 3
+	dstg = 3
+	sidx = 5
+	sqor = -1
+	attm = 1
+	link = fuelTank_4294895654
+	sym = radialDecoupler_4294895930
+	sym = radialDecoupler_4294895884
+	sym = radialDecoupler_4294895838
+	sym = radialDecoupler_4294895792
+	sym = radialDecoupler_4294895746
+	srfN = srfAttach, fuelTank_4294896814
+}
+PART
+{
+	part = fuelTank_4294895654
+	pos = -0.07307351,10.97749,-2.824707
+	rot = 1.244385E-15,0.7071069,-7.365899E-16,-0.7071069
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 0
+	sqor = -1
+	attm = 1
+	link = liquidEngine_4294895486
+	link = fuelTank_4294895126
+	link = fuelTankSmall_4294894570
+	link = strutConnector_4294891910
+	sym = fuelTank_4294895514
+	sym = fuelTank_4294895626
+	sym = fuelTank_4294895598
+	sym = fuelTank_4294895570
+	sym = fuelTank_4294895542
+	srfN = srfAttach, radialDecoupler_4294895700
+	attN = top, fuelTankSmall_4294894570
+	attN = bottom, liquidEngine_4294895486
+}
+PART
+{
+	part = fuelTank_4294895626
+	pos = -2.553491,10.97749,1.471504
+	rot = -1.049104E-16,-0.2588191,-1.115743E-15,-0.965926
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 1
+	sqor = -1
+	attm = 1
+	link = liquidEngine_4294895426
+	link = fuelTank_4294895038
+	link = fuelTankSmall_4294894458
+	link = strutConnector_4294891854
+	sym = fuelTank_4294895514
+	sym = fuelTank_4294895654
+	sym = fuelTank_4294895598
+	sym = fuelTank_4294895570
+	sym = fuelTank_4294895542
+	srfN = srfAttach, radialDecoupler_4294895930
+	attN = top, fuelTankSmall_4294894458
+	attN = bottom, liquidEngine_4294895426
+}
+PART
+{
+	part = fuelTank_4294895598
+	pos = 2.407347,10.97749,-1.392638
+	rot = 1.067649E-15,0.965926,1.959179E-16,-0.258819
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 2
+	sqor = -1
+	attm = 1
+	link = liquidEngine_4294895366
+	link = fuelTank_4294894950
+	link = fuelTankSmall_4294894542
+	link = strutConnector_4294891798
+	sym = fuelTank_4294895514
+	sym = fuelTank_4294895654
+	sym = fuelTank_4294895626
+	sym = fuelTank_4294895570
+	sym = fuelTank_4294895542
+	srfN = srfAttach, radialDecoupler_4294895884
+	attN = top, fuelTankSmall_4294894542
+	attN = bottom, liquidEngine_4294895366
+}
+PART
+{
+	part = fuelTank_4294895570
+	pos = -0.07307216,10.97749,2.903576
+	rot = -1.049739E-15,-0.7071067,-1.889121E-15,-0.7071069
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 3
+	sqor = -1
+	attm = 1
+	link = liquidEngine_4294895306
+	link = fuelTank_4294894862
+	link = fuelTankSmall_4294894514
+	link = strutConnector_4294891742
+	sym = fuelTank_4294895514
+	sym = fuelTank_4294895654
+	sym = fuelTank_4294895626
+	sym = fuelTank_4294895598
+	sym = fuelTank_4294895542
+	srfN = srfAttach, radialDecoupler_4294895792
+	attN = top, fuelTankSmall_4294894514
+	attN = bottom, liquidEngine_4294895306
+}
+PART
+{
+	part = fuelTank_4294895542
+	pos = 2.407347,10.97749,1.471505
+	rot = -1.285474E-15,-0.965926,-8.983823E-16,-0.2588192
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 4
+	sqor = -1
+	attm = 1
+	link = liquidEngine_4294895246
+	link = fuelTank_4294894774
+	link = fuelTankSmall_4294894486
+	link = strutConnector_4294891686
+	sym = fuelTank_4294895514
+	sym = fuelTank_4294895654
+	sym = fuelTank_4294895626
+	sym = fuelTank_4294895598
+	sym = fuelTank_4294895570
+	srfN = srfAttach, radialDecoupler_4294895746
+	attN = top, fuelTankSmall_4294894486
+	attN = bottom, liquidEngine_4294895246
+}
+PART
+{
+	part = fuelTank_4294895514
+	pos = -2.553491,10.97749,-1.392636
+	rot = 1.66834E-16,0.2588189,-4.241881E-16,-0.9659258
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 5
+	sqor = -1
+	attm = 1
+	link = liquidEngine_4294895186
+	link = fuelTank_4294894686
+	link = fuelTankSmall_4294894598
+	link = strutConnector_4294891630
+	sym = fuelTank_4294895654
+	sym = fuelTank_4294895626
+	sym = fuelTank_4294895598
+	sym = fuelTank_4294895570
+	sym = fuelTank_4294895542
+	srfN = srfAttach, radialDecoupler_4294895838
+	attN = top, fuelTankSmall_4294894598
+	attN = bottom, liquidEngine_4294895186
+}
+PART
+{
+	part = liquidEngine_4294895486
+	pos = -0.07307356,9.526029,-2.824707
+	rot = -1.017325E-16,-0.5000001,-9.383659E-17,0.8660256
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 6
+	sqor = -1
+	attm = 0
+	link = stackDecoupler_4294893780
+	sym = liquidEngine_4294895186
+	sym = liquidEngine_4294895426
+	sym = liquidEngine_4294895366
+	sym = liquidEngine_4294895306
+	sym = liquidEngine_4294895246
+	attN = top, fuelTank_4294895654
+	attN = bottom, stackDecoupler_4294893780
+}
+PART
+{
+	part = liquidEngine_4294895426
+	pos = -2.553491,9.526029,1.471504
+	rot = 1.87086E-16,0.5000001,1.294848E-15,0.8660256
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 7
+	sqor = -1
+	attm = 0
+	link = stackDecoupler_4294893916
+	sym = liquidEngine_4294895186
+	sym = liquidEngine_4294895486
+	sym = liquidEngine_4294895366
+	sym = liquidEngine_4294895306
+	sym = liquidEngine_4294895246
+	attN = top, fuelTank_4294895626
+	attN = bottom, stackDecoupler_4294893916
+}
+PART
+{
+	part = liquidEngine_4294895366
+	pos = 2.407347,9.526029,-1.392638
+	rot = -9.21297E-16,-0.8660256,-3.491107E-16,0.5000001
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 8
+	sqor = -1
+	attm = 0
+	link = stackDecoupler_4294893882
+	sym = liquidEngine_4294895186
+	sym = liquidEngine_4294895486
+	sym = liquidEngine_4294895426
+	sym = liquidEngine_4294895306
+	sym = liquidEngine_4294895246
+	attN = top, fuelTank_4294895598
+	attN = bottom, stackDecoupler_4294893882
+}
+PART
+{
+	part = liquidEngine_4294895306
+	pos = -0.07307207,9.526029,2.903577
+	rot = -2.053448E-16,0.8660253,1.156383E-15,0.5000001
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 9
+	sqor = -1
+	attm = 0
+	link = stackDecoupler_4294893848
+	sym = liquidEngine_4294895186
+	sym = liquidEngine_4294895486
+	sym = liquidEngine_4294895426
+	sym = liquidEngine_4294895366
+	sym = liquidEngine_4294895246
+	attN = top, fuelTank_4294895570
+	attN = bottom, stackDecoupler_4294893848
+}
+PART
+{
+	part = liquidEngine_4294895246
+	pos = 2.407347,9.526029,1.471506
+	rot = 6.097334E-16,1,6.895697E-16,2.765751E-07
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 10
+	sqor = -1
+	attm = 0
+	link = stackDecoupler_4294893814
+	sym = liquidEngine_4294895186
+	sym = liquidEngine_4294895486
+	sym = liquidEngine_4294895426
+	sym = liquidEngine_4294895366
+	sym = liquidEngine_4294895306
+	attN = top, fuelTank_4294895542
+	attN = bottom, stackDecoupler_4294893814
+}
+PART
+{
+	part = liquidEngine_4294895186
+	pos = -2.553492,9.526029,-1.392636
+	rot = -1.017811E-16,1.017873E-07,-1.988476E-18,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 11
+	sqor = -1
+	attm = 0
+	link = stackDecoupler_4294893950
+	sym = liquidEngine_4294895486
+	sym = liquidEngine_4294895426
+	sym = liquidEngine_4294895366
+	sym = liquidEngine_4294895306
+	sym = liquidEngine_4294895246
+	attN = top, fuelTank_4294895514
+	attN = bottom, stackDecoupler_4294893950
+}
+PART
+{
+	part = fuelTank_4294895126
+	pos = -0.07307317,11.02598,-3.820991
+	rot = 6.163483E-16,0.7071069,-1.085529E-16,-0.7071069
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 12
+	sqor = -1
+	attm = 1
+	link = liquidEngine_4294895098
+	link = CanardController_4294892350
+	sym = fuelTank_4294894686
+	sym = fuelTank_4294895038
+	sym = fuelTank_4294894950
+	sym = fuelTank_4294894862
+	sym = fuelTank_4294894774
+	srfN = srfAttach, fuelTank_4294895654
+	attN = bottom, liquidEngine_4294895098
+}
+PART
+{
+	part = liquidEngine_4294895098
+	pos = -0.07307334,9.574523,-3.820992
+	rot = -1.183505E-15,-0.5000003,1.138931E-17,0.8660256
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 13
+	sqor = -1
+	attm = 0
+	sym = liquidEngine_4294894658
+	sym = liquidEngine_4294895010
+	sym = liquidEngine_4294894922
+	sym = liquidEngine_4294894834
+	sym = liquidEngine_4294894746
+	attN = top, fuelTank_4294895126
+}
+PART
+{
+	part = fuelTank_4294895038
+	pos = -3.416298,11.02598,1.969646
+	rot = -2.121498E-16,-0.2588191,-1.087008E-15,-0.965926
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 14
+	sqor = -1
+	attm = 1
+	link = liquidEngine_4294895010
+	link = CanardController_4294892310
+	sym = fuelTank_4294894686
+	sym = fuelTank_4294895126
+	sym = fuelTank_4294894950
+	sym = fuelTank_4294894862
+	sym = fuelTank_4294894774
+	srfN = srfAttach, fuelTank_4294895626
+	attN = bottom, liquidEngine_4294895010
+}
+PART
+{
+	part = liquidEngine_4294895010
+	pos = -3.416298,9.574523,1.969646
+	rot = -7.182904E-16,0.4999999,1.610472E-15,0.8660257
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 15
+	sqor = -1
+	attm = 0
+	sym = liquidEngine_4294894658
+	sym = liquidEngine_4294895098
+	sym = liquidEngine_4294894922
+	sym = liquidEngine_4294894834
+	sym = liquidEngine_4294894746
+	attN = top, fuelTank_4294895038
+}
+PART
+{
+	part = fuelTank_4294894950
+	pos = 3.270155,11.02598,-1.89078
+	rot = 1.038914E-15,0.965926,8.867861E-17,-0.258819
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 16
+	sqor = -1
+	attm = 1
+	link = liquidEngine_4294894922
+	link = CanardController_4294892190
+	sym = fuelTank_4294894686
+	sym = fuelTank_4294895126
+	sym = fuelTank_4294895038
+	sym = fuelTank_4294894862
+	sym = fuelTank_4294894774
+	srfN = srfAttach, fuelTank_4294895598
+	attN = bottom, liquidEngine_4294894922
+}
+PART
+{
+	part = liquidEngine_4294894922
+	pos = 3.270156,9.574523,-1.890781
+	rot = -2.047354E-15,-0.8660257,-6.639532E-16,0.4999999
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 17
+	sqor = -1
+	attm = 0
+	sym = liquidEngine_4294894658
+	sym = liquidEngine_4294895098
+	sym = liquidEngine_4294895010
+	sym = liquidEngine_4294894834
+	sym = liquidEngine_4294894746
+	attN = top, fuelTank_4294894950
+}
+PART
+{
+	part = fuelTank_4294894862
+	pos = -0.07307221,11.02598,3.899862
+	rot = -4.217019E-16,-0.7071067,-1.261084E-15,-0.7071069
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 18
+	sqor = -1
+	attm = 1
+	link = liquidEngine_4294894834
+	link = CanardController_4294892270
+	sym = fuelTank_4294894686
+	sym = fuelTank_4294895126
+	sym = fuelTank_4294895038
+	sym = fuelTank_4294894950
+	sym = fuelTank_4294894774
+	srfN = srfAttach, fuelTank_4294895570
+	attN = bottom, liquidEngine_4294894834
+}
+PART
+{
+	part = liquidEngine_4294894834
+	pos = -0.07307214,9.574523,3.899863
+	rot = 5.959996E-17,0.8660253,2.381569E-15,0.5000003
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 19
+	sqor = -1
+	attm = 0
+	sym = liquidEngine_4294894658
+	sym = liquidEngine_4294895098
+	sym = liquidEngine_4294895010
+	sym = liquidEngine_4294894922
+	sym = liquidEngine_4294894746
+	attN = top, fuelTank_4294894862
+}
+PART
+{
+	part = fuelTank_4294894774
+	pos = 3.270156,11.02598,1.969648
+	rot = -1.449336E-15,-0.9659259,-8.057243E-16,-0.2588193
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 20
+	sqor = -1
+	attm = 1
+	link = liquidEngine_4294894746
+	link = CanardController_4294892230
+	sym = fuelTank_4294894686
+	sym = fuelTank_4294895126
+	sym = fuelTank_4294895038
+	sym = fuelTank_4294894950
+	sym = fuelTank_4294894862
+	srfN = srfAttach, fuelTank_4294895542
+	attN = bottom, liquidEngine_4294894746
+}
+PART
+{
+	part = liquidEngine_4294894746
+	pos = 3.270156,9.574523,1.969648
+	rot = 7.776304E-16,1,1.441505E-15,3.762956E-07
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 21
+	sqor = -1
+	attm = 0
+	sym = liquidEngine_4294894658
+	sym = liquidEngine_4294895098
+	sym = liquidEngine_4294895010
+	sym = liquidEngine_4294894922
+	sym = liquidEngine_4294894834
+	attN = top, fuelTank_4294894774
+}
+PART
+{
+	part = fuelTank_4294894686
+	pos = -3.416298,11.02598,-1.890778
+	rot = 1.227147E-16,0.258819,-4.022923E-16,-0.9659259
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 22
+	sqor = -1
+	attm = 1
+	link = liquidEngine_4294894658
+	link = CanardController_4294892390
+	sym = fuelTank_4294895126
+	sym = fuelTank_4294895038
+	sym = fuelTank_4294894950
+	sym = fuelTank_4294894862
+	sym = fuelTank_4294894774
+	srfN = srfAttach, fuelTank_4294895514
+	attN = bottom, liquidEngine_4294894658
+}
+PART
+{
+	part = liquidEngine_4294894658
+	pos = -3.416299,9.574523,-1.890778
+	rot = -5.307384E-16,1.017873E-07,-1.169272E-16,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 23
+	sqor = -1
+	attm = 0
+	sym = liquidEngine_4294895098
+	sym = liquidEngine_4294895010
+	sym = liquidEngine_4294894922
+	sym = liquidEngine_4294894834
+	sym = liquidEngine_4294894746
+	attN = top, fuelTank_4294894686
+}
+PART
+{
+	part = fuelTankSmall_4294894598
+	pos = -2.553492,12.19424,-1.392636
+	rot = -3.308325E-19,-0.4999999,-1.934586E-16,0.8660255
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 24
+	sqor = -1
+	attm = 0
+	link = fuelLine_4294894350
+	sym = fuelTankSmall_4294894458
+	sym = fuelTankSmall_4294894570
+	sym = fuelTankSmall_4294894542
+	sym = fuelTankSmall_4294894514
+	sym = fuelTankSmall_4294894486
+	attN = bottom, fuelTank_4294895514
+}
+PART
+{
+	part = fuelTankSmall_4294894570
+	pos = -0.07307355,12.19424,-2.824708
+	rot = 1.189653E-16,-0.8660255,-8.39853E-16,0.5
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 25
+	sqor = -1
+	attm = 0
+	link = fuelLine_4294894030
+	sym = fuelTankSmall_4294894458
+	sym = fuelTankSmall_4294894598
+	sym = fuelTankSmall_4294894542
+	sym = fuelTankSmall_4294894514
+	sym = fuelTankSmall_4294894486
+	attN = bottom, fuelTank_4294895654
+}
+PART
+{
+	part = fuelTankSmall_4294894542
+	pos = 2.407347,12.19424,-1.392638
+	rot = 1.670233E-16,-1,-2.991922E-16,-2.672003E-08
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 26
+	sqor = -1
+	attm = 0
+	link = fuelLine_4294894270
+	sym = fuelTankSmall_4294894458
+	sym = fuelTankSmall_4294894598
+	sym = fuelTankSmall_4294894570
+	sym = fuelTankSmall_4294894514
+	sym = fuelTankSmall_4294894486
+	attN = bottom, fuelTank_4294895598
+}
+PART
+{
+	part = fuelTankSmall_4294894514
+	pos = -0.07307205,12.19424,2.903577
+	rot = 3.173137E-16,0.4999999,7.738923E-16,0.8660255
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 27
+	sqor = -1
+	attm = 0
+	link = fuelLine_4294894190
+	sym = fuelTankSmall_4294894458
+	sym = fuelTankSmall_4294894598
+	sym = fuelTankSmall_4294894570
+	sym = fuelTankSmall_4294894542
+	sym = fuelTankSmall_4294894486
+	attN = bottom, fuelTank_4294895570
+}
+PART
+{
+	part = fuelTankSmall_4294894486
+	pos = 2.407347,12.19424,1.471506
+	rot = 1.298755E-16,0.8660254,3.337727E-16,0.5000002
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 28
+	sqor = -1
+	attm = 0
+	link = fuelLine_4294894110
+	sym = fuelTankSmall_4294894458
+	sym = fuelTankSmall_4294894598
+	sym = fuelTankSmall_4294894570
+	sym = fuelTankSmall_4294894542
+	sym = fuelTankSmall_4294894514
+	attN = bottom, fuelTank_4294895542
+}
+PART
+{
+	part = fuelTankSmall_4294894458
+	pos = -2.553491,12.19424,1.471504
+	rot = -1.513274E-16,1.749363E-08,-4.285519E-16,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 29
+	sqor = -1
+	attm = 0
+	link = fuelLine_4294894430
+	sym = fuelTankSmall_4294894598
+	sym = fuelTankSmall_4294894570
+	sym = fuelTankSmall_4294894542
+	sym = fuelTankSmall_4294894514
+	sym = fuelTankSmall_4294894486
+	attN = bottom, fuelTank_4294895626
+}
+PART
+{
+	part = fuelLine_4294894430
+	pos = -3.020766,12.02,1.596711
+	rot = 1.036799E-07,-0.1305262,1.795788E-07,-0.9914452
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 30
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_68; pos: -0.4441728,-0.220092,0.1409732; dir: -0.8618546,-0.4270619,0.2735412; rot: 0.5609853,0.5609858,-0.4304594,-0.4304593
+	sym = fuelLine_4294894030
+	sym = fuelLine_4294894350
+	sym = fuelLine_4294894270
+	sym = fuelLine_4294894190
+	sym = fuelLine_4294894110
+	srfN = srfAttach, fuelTankSmall_4294894458
+}
+PART
+{
+	part = fuelLine_4294894350
+	pos = -2.895561,12.02,-1.734705
+	rot = 5.811835E-14,0.3826834,2.073597E-07,-0.9238797
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 31
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_45; pos: -0.444173,-0.220093,0.1409737; dir: -0.8618546,-0.4270619,0.2735412; rot: 0.270598,0.2705983,-0.6532816,-0.6532814
+	sym = fuelLine_4294894030
+	sym = fuelLine_4294894430
+	sym = fuelLine_4294894270
+	sym = fuelLine_4294894190
+	sym = fuelLine_4294894110
+	srfN = srfAttach, fuelTankSmall_4294894598
+}
+PART
+{
+	part = fuelLine_4294894270
+	pos = 2.874624,12.02,-1.517845
+	rot = -1.795788E-07,0.9914452,1.036799E-07,-0.1305262
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 32
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_137; pos: -0.4441773,-0.220092,0.1409752; dir: -0.8618546,-0.4270619,0.2735412; rot: -0.4304596,-0.4304594,-0.5609856,-0.5609853
+	sym = fuelLine_4294894030
+	sym = fuelLine_4294894430
+	sym = fuelLine_4294894350
+	sym = fuelLine_4294894190
+	sym = fuelLine_4294894110
+	srfN = srfAttach, fuelTankSmall_4294894542
+}
+PART
+{
+	part = fuelLine_4294894190
+	pos = -0.1982775,12.02,3.370852
+	rot = 1.795788E-07,-0.6087614,1.036799E-07,-0.7933536
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 33
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_91; pos: -0.4441719,-0.220093,0.1409743; dir: -0.8618546,-0.4270619,0.2735412; rot: 0.7010574,0.7010574,-0.09229601,-0.09229629
+	sym = fuelLine_4294894030
+	sym = fuelLine_4294894430
+	sym = fuelLine_4294894350
+	sym = fuelLine_4294894270
+	sym = fuelLine_4294894110
+	srfN = srfAttach, fuelTankSmall_4294894514
+}
+PART
+{
+	part = fuelLine_4294894110
+	pos = 2.749418,12.02,1.813575
+	rot = 2.073598E-07,-0.9238797,1.240849E-14,-0.3826836
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 34
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_114; pos: -0.4441746,-0.220092,0.1409751; dir: -0.8618546,-0.4270619,0.2735412; rot: 0.6532816,0.6532815,0.270598,0.2705978
+	sym = fuelLine_4294894030
+	sym = fuelLine_4294894430
+	sym = fuelLine_4294894350
+	sym = fuelLine_4294894270
+	sym = fuelLine_4294894190
+	srfN = srfAttach, fuelTankSmall_4294894486
+}
+PART
+{
+	part = fuelLine_4294894030
+	pos = 0.05213218,12.02,-3.291982
+	rot = -1.036798E-07,0.7933536,1.795788E-07,-0.6087616
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 35
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_22; pos: -0.4441767,-0.220092,0.140974; dir: -0.8618546,-0.4270619,0.2735412; rot: -0.09229621,-0.09229599,-0.7010577,-0.7010571
+	sym = fuelLine_4294894430
+	sym = fuelLine_4294894350
+	sym = fuelLine_4294894270
+	sym = fuelLine_4294894190
+	sym = fuelLine_4294894110
+	srfN = srfAttach, fuelTankSmall_4294894570
+}
+PART
+{
+	part = stackDecoupler_4294893950
+	pos = -2.553492,8.716235,-1.392637
+	rot = 8.176942E-16,0.5000001,2.595754E-16,0.8660254
+	mir = 1,1,1
+	istg = 5
+	dstg = 5
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294893718
+	sym = stackDecoupler_4294893780
+	sym = stackDecoupler_4294893916
+	sym = stackDecoupler_4294893882
+	sym = stackDecoupler_4294893848
+	sym = stackDecoupler_4294893814
+	attN = bottom, fuelTank_4294893718
+	attN = top, liquidEngine_4294895186
+}
+PART
+{
+	part = stackDecoupler_4294893916
+	pos = -2.553491,8.716235,1.471505
+	rot = -5.935112E-16,0.8660256,3.844788E-16,0.5000001
+	mir = 1,1,1
+	istg = 5
+	dstg = 5
+	sidx = 1
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294893690
+	sym = stackDecoupler_4294893780
+	sym = stackDecoupler_4294893950
+	sym = stackDecoupler_4294893882
+	sym = stackDecoupler_4294893848
+	sym = stackDecoupler_4294893814
+	attN = bottom, fuelTank_4294893690
+	attN = top, liquidEngine_4294895426
+}
+PART
+{
+	part = stackDecoupler_4294893882
+	pos = 2.407347,8.716235,-1.392638
+	rot = -1.676855E-16,-0.5000003,-6.186924E-16,0.8660256
+	mir = 1,1,1
+	istg = 5
+	dstg = 5
+	sidx = 2
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294893606
+	sym = stackDecoupler_4294893780
+	sym = stackDecoupler_4294893950
+	sym = stackDecoupler_4294893916
+	sym = stackDecoupler_4294893848
+	sym = stackDecoupler_4294893814
+	attN = bottom, fuelTank_4294893606
+	attN = top, liquidEngine_4294895366
+}
+PART
+{
+	part = stackDecoupler_4294893848
+	pos = -0.07307202,8.716235,2.903577
+	rot = -2.359839E-16,1,1.390371E-15,8.42937E-08
+	mir = 1,1,1
+	istg = 5
+	dstg = 5
+	sidx = 3
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294893662
+	sym = stackDecoupler_4294893780
+	sym = stackDecoupler_4294893950
+	sym = stackDecoupler_4294893916
+	sym = stackDecoupler_4294893882
+	sym = stackDecoupler_4294893814
+	attN = bottom, fuelTank_4294893662
+	attN = top, liquidEngine_4294895306
+}
+PART
+{
+	part = stackDecoupler_4294893814
+	pos = 2.407347,8.716235,1.471506
+	rot = 5.057313E-17,0.8660258,4.412669E-16,-0.5
+	mir = 1,1,1
+	istg = 5
+	dstg = 5
+	sidx = 4
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294893634
+	sym = stackDecoupler_4294893780
+	sym = stackDecoupler_4294893950
+	sym = stackDecoupler_4294893916
+	sym = stackDecoupler_4294893882
+	sym = stackDecoupler_4294893848
+	attN = bottom, fuelTank_4294893634
+	attN = top, liquidEngine_4294895246
+}
+PART
+{
+	part = stackDecoupler_4294893780
+	pos = -0.07307355,8.716235,-2.824708
+	rot = 1.823265E-17,-2.107343E-07,-7.914057E-16,1
+	mir = 1,1,1
+	istg = 5
+	dstg = 5
+	sidx = 5
+	sqor = -1
+	attm = 0
+	link = fuelTank_4294893746
+	sym = stackDecoupler_4294893950
+	sym = stackDecoupler_4294893916
+	sym = stackDecoupler_4294893882
+	sym = stackDecoupler_4294893848
+	sym = stackDecoupler_4294893814
+	attN = bottom, fuelTank_4294893746
+	attN = top, liquidEngine_4294895486
+}
+PART
+{
+	part = fuelTank_4294893746
+	pos = -0.07307361,7.65007,-2.824708
+	rot = 7.998484E-16,0.5000003,1.505797E-15,0.8660256
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = stackTriCoupler_4294892878
+	link = CanardController_4294892150
+	sym = fuelTank_4294893606
+	sym = fuelTank_4294893718
+	sym = fuelTank_4294893690
+	sym = fuelTank_4294893662
+	sym = fuelTank_4294893634
+	attN = top, stackDecoupler_4294893780
+	attN = bottom, stackTriCoupler_4294892878
+}
+PART
+{
+	part = fuelTank_4294893718
+	pos = -2.553492,7.65007,-1.392637
+	rot = 4.168365E-16,0.8660256,6.389068E-16,0.4999999
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 1
+	sqor = -1
+	attm = 0
+	link = stackTriCoupler_4294893438
+	link = CanardController_4294892110
+	sym = fuelTank_4294893606
+	sym = fuelTank_4294893746
+	sym = fuelTank_4294893690
+	sym = fuelTank_4294893662
+	sym = fuelTank_4294893634
+	attN = top, stackDecoupler_4294893950
+	attN = bottom, stackTriCoupler_4294893438
+}
+PART
+{
+	part = fuelTank_4294893690
+	pos = -2.553491,7.65007,1.471505
+	rot = -1.58595E-17,1,8.879502E-16,-1.32641E-07
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 2
+	sqor = -1
+	attm = 0
+	link = stackTriCoupler_4294893298
+	link = CanardController_4294892070
+	sym = fuelTank_4294893606
+	sym = fuelTank_4294893746
+	sym = fuelTank_4294893718
+	sym = fuelTank_4294893662
+	sym = fuelTank_4294893634
+	attN = top, stackDecoupler_4294893916
+	attN = bottom, stackTriCoupler_4294893298
+}
+PART
+{
+	part = fuelTank_4294893662
+	pos = -0.07307196,7.65007,2.903578
+	rot = 9.601823E-17,0.8660254,4.140509E-16,-0.5000001
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 3
+	sqor = -1
+	attm = 0
+	link = stackTriCoupler_4294893158
+	link = CanardController_4294892030
+	sym = fuelTank_4294893606
+	sym = fuelTank_4294893746
+	sym = fuelTank_4294893718
+	sym = fuelTank_4294893690
+	sym = fuelTank_4294893634
+	attN = top, stackDecoupler_4294893848
+	attN = bottom, stackTriCoupler_4294893158
+}
+PART
+{
+	part = fuelTank_4294893634
+	pos = 2.407348,7.65007,1.471506
+	rot = 2.715074E-16,0.5000002,3.730916E-16,-0.8660256
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 4
+	sqor = -1
+	attm = 0
+	link = stackTriCoupler_4294893018
+	link = CanardController_4294891990
+	sym = fuelTank_4294893606
+	sym = fuelTank_4294893746
+	sym = fuelTank_4294893718
+	sym = fuelTank_4294893690
+	sym = fuelTank_4294893662
+	attN = top, stackDecoupler_4294893814
+	attN = bottom, stackTriCoupler_4294893018
+}
+PART
+{
+	part = fuelTank_4294893606
+	pos = 2.407348,7.65007,-1.392639
+	rot = -3.442437E-16,-2.672003E-08,3.394315E-16,1
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 5
+	sqor = -1
+	attm = 0
+	link = stackTriCoupler_4294893578
+	link = CanardController_4294891950
+	sym = fuelTank_4294893746
+	sym = fuelTank_4294893718
+	sym = fuelTank_4294893690
+	sym = fuelTank_4294893662
+	sym = fuelTank_4294893634
+	attN = top, stackDecoupler_4294893882
+	attN = bottom, stackTriCoupler_4294893578
+}
+PART
+{
+	part = stackTriCoupler_4294893578
+	pos = 2.359202,6.602343,-1.345799
+	rot = -9.856478E-16,-0.5000002,-9.735259E-16,0.8660256
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 6
+	sqor = -1
+	attm = 0
+	link = turboFanEngine_4294893554
+	link = turboFanEngine_4294893496
+	link = turboFanEngine_4294892738
+	sym = stackTriCoupler_4294892878
+	sym = stackTriCoupler_4294893438
+	sym = stackTriCoupler_4294893298
+	sym = stackTriCoupler_4294893158
+	sym = stackTriCoupler_4294893018
+	attN = top, fuelTank_4294893606
+	attN = bottom01, turboFanEngine_4294893554
+	attN = bottom02, turboFanEngine_4294892738
+	attN = bottom03, turboFanEngine_4294893496
+}
+PART
+{
+	part = turboFanEngine_4294893554
+	pos = 1.831724,5.204157,-1.724978
+	rot = -2.22226E-15,-0.866026,-1.10865E-15,0.5
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 7
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4294892854
+	sym = turboFanEngine_4294893414
+	sym = turboFanEngine_4294893274
+	sym = turboFanEngine_4294893134
+	sym = turboFanEngine_4294892994
+	attN = top, stackTriCoupler_4294893578
+}
+PART
+{
+	part = turboFanEngine_4294893496
+	pos = 2.982977,5.204157,-1.724978
+	rot = -2.22226E-15,-0.866026,-1.10865E-15,0.5
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 8
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4294892796
+	sym = turboFanEngine_4294893356
+	sym = turboFanEngine_4294893216
+	sym = turboFanEngine_4294893076
+	sym = turboFanEngine_4294892936
+	attN = top, stackTriCoupler_4294893578
+}
+PART
+{
+	part = stackTriCoupler_4294893438
+	pos = -2.488853,6.602343,-1.37436
+	rot = -3.89456E-16,0.5,3.214356E-16,0.8660255
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 9
+	sqor = -1
+	attm = 0
+	link = turboFanEngine_4294893414
+	link = turboFanEngine_4294893356
+	link = turboFanEngine_4294892680
+	sym = stackTriCoupler_4294892878
+	sym = stackTriCoupler_4294893578
+	sym = stackTriCoupler_4294893298
+	sym = stackTriCoupler_4294893158
+	sym = stackTriCoupler_4294893018
+	attN = top, fuelTank_4294893718
+	attN = bottom01, turboFanEngine_4294893414
+	attN = bottom02, turboFanEngine_4294892680
+	attN = bottom03, turboFanEngine_4294893356
+}
+PART
+{
+	part = turboFanEngine_4294893414
+	pos = -2.553492,5.204157,-0.7279615
+	rot = -1.543286E-15,-2.745083E-07,7.756416E-16,1
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 10
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4294892854
+	sym = turboFanEngine_4294893554
+	sym = turboFanEngine_4294893274
+	sym = turboFanEngine_4294893134
+	sym = turboFanEngine_4294892994
+	attN = top, stackTriCoupler_4294893438
+}
+PART
+{
+	part = turboFanEngine_4294893356
+	pos = -3.129119,5.204157,-1.724976
+	rot = -1.543286E-15,-2.745083E-07,7.756416E-16,1
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 11
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4294892796
+	sym = turboFanEngine_4294893496
+	sym = turboFanEngine_4294893216
+	sym = turboFanEngine_4294893076
+	sym = turboFanEngine_4294892936
+	attN = top, stackTriCoupler_4294893438
+}
+PART
+{
+	part = stackTriCoupler_4294893298
+	pos = -2.505343,6.602343,1.424664
+	rot = -7.900799E-16,0.8660258,5.036543E-16,0.5000001
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 12
+	sqor = -1
+	attm = 0
+	link = turboFanEngine_4294893274
+	link = turboFanEngine_4294893216
+	link = turboFanEngine_4294892622
+	sym = stackTriCoupler_4294892878
+	sym = stackTriCoupler_4294893578
+	sym = stackTriCoupler_4294893438
+	sym = stackTriCoupler_4294893158
+	sym = stackTriCoupler_4294893018
+	attN = top, fuelTank_4294893690
+	attN = bottom01, turboFanEngine_4294893274
+	attN = bottom02, turboFanEngine_4294892622
+	attN = bottom03, turboFanEngine_4294893216
+}
+PART
+{
+	part = turboFanEngine_4294893274
+	pos = -1.977865,5.204157,1.803842
+	rot = -7.832175E-16,0.5000001,1.134896E-15,0.8660258
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 13
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4294892854
+	sym = turboFanEngine_4294893554
+	sym = turboFanEngine_4294893414
+	sym = turboFanEngine_4294893134
+	sym = turboFanEngine_4294892994
+	attN = top, stackTriCoupler_4294893298
+}
+PART
+{
+	part = turboFanEngine_4294893216
+	pos = -3.129118,5.204157,1.803843
+	rot = -7.832175E-16,0.5000001,1.134896E-15,0.8660258
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 14
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4294892796
+	sym = turboFanEngine_4294893496
+	sym = turboFanEngine_4294893356
+	sym = turboFanEngine_4294893076
+	sym = turboFanEngine_4294892936
+	attN = top, stackTriCoupler_4294893298
+}
+PART
+{
+	part = stackTriCoupler_4294893158
+	pos = -0.08956277,6.602343,2.83846
+	rot = -8.694404E-16,1,2.0456E-15,1.264405E-07
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 15
+	sqor = -1
+	attm = 0
+	link = turboFanEngine_4294893134
+	link = turboFanEngine_4294893076
+	link = turboFanEngine_4294892564
+	sym = stackTriCoupler_4294892878
+	sym = stackTriCoupler_4294893578
+	sym = stackTriCoupler_4294893438
+	sym = stackTriCoupler_4294893298
+	sym = stackTriCoupler_4294893018
+	attN = top, fuelTank_4294893662
+	attN = bottom01, turboFanEngine_4294893134
+	attN = bottom02, turboFanEngine_4294892564
+	attN = bottom03, turboFanEngine_4294893076
+}
+PART
+{
+	part = turboFanEngine_4294893134
+	pos = 0.5025541,5.204157,2.57124
+	rot = 3.410078E-16,0.8660254,2.717359E-15,0.5000002
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 16
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4294892854
+	sym = turboFanEngine_4294893554
+	sym = turboFanEngine_4294893414
+	sym = turboFanEngine_4294893274
+	sym = turboFanEngine_4294892994
+	attN = top, stackTriCoupler_4294893158
+}
+PART
+{
+	part = turboFanEngine_4294893076
+	pos = -0.07307204,5.204157,3.568255
+	rot = 3.410078E-16,0.8660254,2.717359E-15,0.5000002
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 17
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4294892796
+	sym = turboFanEngine_4294893496
+	sym = turboFanEngine_4294893356
+	sym = turboFanEngine_4294893216
+	sym = turboFanEngine_4294892936
+	attN = top, stackTriCoupler_4294893158
+}
+PART
+{
+	part = stackTriCoupler_4294893018
+	pos = 2.342711,6.602343,1.45323
+	rot = -1.258409E-16,0.8660258,1.71476E-15,-0.5000002
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 18
+	sqor = -1
+	attm = 0
+	link = turboFanEngine_4294892994
+	link = turboFanEngine_4294892936
+	link = turboFanEngine_4294892506
+	sym = stackTriCoupler_4294892878
+	sym = stackTriCoupler_4294893578
+	sym = stackTriCoupler_4294893438
+	sym = stackTriCoupler_4294893298
+	sym = stackTriCoupler_4294893158
+	attN = top, fuelTank_4294893634
+	attN = bottom01, turboFanEngine_4294892994
+	attN = bottom02, turboFanEngine_4294892506
+	attN = bottom03, turboFanEngine_4294892936
+}
+PART
+{
+	part = turboFanEngine_4294892994
+	pos = 2.40735,5.204157,0.8068316
+	rot = 6.359339E-16,1,1.533658E-15,4.688566E-07
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 19
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4294892854
+	sym = turboFanEngine_4294893554
+	sym = turboFanEngine_4294893414
+	sym = turboFanEngine_4294893274
+	sym = turboFanEngine_4294893134
+	attN = top, stackTriCoupler_4294893018
+}
+PART
+{
+	part = turboFanEngine_4294892936
+	pos = 2.982976,5.204157,1.803846
+	rot = 6.359339E-16,1,1.533658E-15,4.688566E-07
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 20
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4294892796
+	sym = turboFanEngine_4294893496
+	sym = turboFanEngine_4294893356
+	sym = turboFanEngine_4294893216
+	sym = turboFanEngine_4294893076
+	attN = top, stackTriCoupler_4294893018
+}
+PART
+{
+	part = stackTriCoupler_4294892878
+	pos = -0.05658273,6.602343,-2.75959
+	rot = -6.824196E-16,-8.42937E-08,-6.388758E-16,1
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 21
+	sqor = -1
+	attm = 0
+	link = turboFanEngine_4294892854
+	link = turboFanEngine_4294892796
+	link = turboFanEngine_4294892448
+	sym = stackTriCoupler_4294893578
+	sym = stackTriCoupler_4294893438
+	sym = stackTriCoupler_4294893298
+	sym = stackTriCoupler_4294893158
+	sym = stackTriCoupler_4294893018
+	attN = top, fuelTank_4294893746
+	attN = bottom01, turboFanEngine_4294892854
+	attN = bottom02, turboFanEngine_4294892448
+	attN = bottom03, turboFanEngine_4294892796
+}
+PART
+{
+	part = turboFanEngine_4294892854
+	pos = -0.6486999,5.204157,-2.492371
+	rot = -1.751582E-15,-0.5000005,5.858289E-17,0.8660257
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 22
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4294893554
+	sym = turboFanEngine_4294893414
+	sym = turboFanEngine_4294893274
+	sym = turboFanEngine_4294893134
+	sym = turboFanEngine_4294892994
+	attN = top, stackTriCoupler_4294892878
+}
+PART
+{
+	part = turboFanEngine_4294892796
+	pos = -0.07307303,5.204157,-3.489386
+	rot = -1.751582E-15,-0.5000005,5.858289E-17,0.8660257
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 23
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4294893496
+	sym = turboFanEngine_4294893356
+	sym = turboFanEngine_4294893216
+	sym = turboFanEngine_4294893076
+	sym = turboFanEngine_4294892936
+	attN = top, stackTriCoupler_4294892878
+}
+PART
+{
+	part = turboFanEngine_4294892738
+	pos = 2.407351,5.204157,-0.7279631
+	rot = -3.26813E-16,-0.5000002,-2.305501E-16,0.8660256
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 24
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4294892448
+	sym = turboFanEngine_4294892680
+	sym = turboFanEngine_4294892622
+	sym = turboFanEngine_4294892564
+	sym = turboFanEngine_4294892506
+	attN = top, stackTriCoupler_4294893578
+}
+PART
+{
+	part = turboFanEngine_4294892680
+	pos = -1.977866,5.204157,-1.724976
+	rot = 1.940767E-16,0.5000002,1.669175E-16,0.8660254
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 25
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4294892448
+	sym = turboFanEngine_4294892738
+	sym = turboFanEngine_4294892622
+	sym = turboFanEngine_4294892564
+	sym = turboFanEngine_4294892506
+	attN = top, stackTriCoupler_4294893438
+}
+PART
+{
+	part = turboFanEngine_4294892622
+	pos = -2.553492,5.204157,0.8068281
+	rot = -2.436341E-16,0.8660258,8.568009E-16,0.5000002
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 26
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4294892448
+	sym = turboFanEngine_4294892738
+	sym = turboFanEngine_4294892680
+	sym = turboFanEngine_4294892564
+	sym = turboFanEngine_4294892506
+	attN = top, stackTriCoupler_4294893298
+}
+PART
+{
+	part = turboFanEngine_4294892564
+	pos = -0.6486989,5.204157,2.571241
+	rot = -8.345397E-17,1,8.349494E-16,-4.214685E-08
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 27
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4294892448
+	sym = turboFanEngine_4294892738
+	sym = turboFanEngine_4294892680
+	sym = turboFanEngine_4294892622
+	sym = turboFanEngine_4294892506
+	attN = top, stackTriCoupler_4294893158
+}
+PART
+{
+	part = turboFanEngine_4294892506
+	pos = 1.831723,5.204157,1.803846
+	rot = 5.36971E-16,0.8660259,7.68222E-16,-0.5
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 28
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4294892448
+	sym = turboFanEngine_4294892738
+	sym = turboFanEngine_4294892680
+	sym = turboFanEngine_4294892622
+	sym = turboFanEngine_4294892564
+	attN = top, stackTriCoupler_4294893018
+}
+PART
+{
+	part = turboFanEngine_4294892448
+	pos = 0.5025539,5.204157,-2.492371
+	rot = -6.824196E-16,-8.42937E-08,-6.388758E-16,1
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 29
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4294892738
+	sym = turboFanEngine_4294892680
+	sym = turboFanEngine_4294892622
+	sym = turboFanEngine_4294892564
+	sym = turboFanEngine_4294892506
+	attN = top, stackTriCoupler_4294892878
+}
+PART
+{
+	part = CanardController_4294892390
+	pos = -3.846722,10.32325,-2.139283
+	rot = -6.871033E-16,0.2588188,7.173321E-16,-0.9659259
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 36
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294892190
+	sym = CanardController_4294892350
+	sym = CanardController_4294892310
+	sym = CanardController_4294892270
+	sym = CanardController_4294892230
+	srfN = srfAttach, fuelTank_4294894686
+}
+PART
+{
+	part = CanardController_4294892350
+	pos = -0.07307328,10.32325,-4.318002
+	rot = -1.113284E-15,0.7071068,9.588507E-16,-0.707107
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 37
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294892190
+	sym = CanardController_4294892390
+	sym = CanardController_4294892310
+	sym = CanardController_4294892270
+	sym = CanardController_4294892230
+	srfN = srfAttach, fuelTank_4294895126
+}
+PART
+{
+	part = CanardController_4294892310
+	pos = -3.846722,10.32325,2.218151
+	rot = -1.941171E-16,-0.2588193,1.057401E-16,-0.9659259
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 38
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294892190
+	sym = CanardController_4294892390
+	sym = CanardController_4294892350
+	sym = CanardController_4294892270
+	sym = CanardController_4294892230
+	srfN = srfAttach, fuelTank_4294895038
+}
+PART
+{
+	part = CanardController_4294892270
+	pos = -0.07307163,10.32325,4.396873
+	rot = -5.947579E-16,-0.7071068,-7.081783E-16,-0.7071068
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 39
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294892190
+	sym = CanardController_4294892390
+	sym = CanardController_4294892350
+	sym = CanardController_4294892310
+	sym = CanardController_4294892230
+	srfN = srfAttach, fuelTank_4294894862
+}
+PART
+{
+	part = CanardController_4294892230
+	pos = 3.700579,10.32325,2.218153
+	rot = -4.361046E-16,-0.965926,-1.177268E-16,-0.2588191
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 40
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294892190
+	sym = CanardController_4294892390
+	sym = CanardController_4294892350
+	sym = CanardController_4294892310
+	sym = CanardController_4294892270
+	srfN = srfAttach, fuelTank_4294894774
+}
+PART
+{
+	part = CanardController_4294892190
+	pos = 3.700578,10.32325,-2.139285
+	rot = -5.825362E-17,0.965926,-5.546452E-17,-0.2588191
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 41
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294892390
+	sym = CanardController_4294892350
+	sym = CanardController_4294892310
+	sym = CanardController_4294892270
+	sym = CanardController_4294892230
+	srfN = srfAttach, fuelTank_4294894950
+}
+PART
+{
+	part = CanardController_4294892150
+	pos = -0.07307354,7.7065,-3.320042
+	rot = -5.869334E-16,0.7071069,7.010949E-16,-0.7071071
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 30
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294891950
+	sym = CanardController_4294892110
+	sym = CanardController_4294892070
+	sym = CanardController_4294892030
+	sym = CanardController_4294891990
+	srfN = srfAttach, fuelTank_4294893746
+}
+PART
+{
+	part = CanardController_4294892110
+	pos = -2.982466,7.7065,-1.640304
+	rot = -5.608633E-16,0.258819,8.185931E-16,-0.965926
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 31
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294891950
+	sym = CanardController_4294892150
+	sym = CanardController_4294892070
+	sym = CanardController_4294892030
+	sym = CanardController_4294891990
+	srfN = srfAttach, fuelTank_4294893718
+}
+PART
+{
+	part = CanardController_4294892070
+	pos = -2.982463,7.7065,1.719172
+	rot = -8.382973E-17,-0.2588194,5.607277E-16,-0.9659261
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 32
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294891950
+	sym = CanardController_4294892150
+	sym = CanardController_4294892110
+	sym = CanardController_4294892030
+	sym = CanardController_4294891990
+	srfN = srfAttach, fuelTank_4294893690
+}
+PART
+{
+	part = CanardController_4294892030
+	pos = -0.07307158,7.7065,3.398912
+	rot = -6.330466E-16,-0.707107,-1.074145E-15,-0.7071067
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 33
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294891950
+	sym = CanardController_4294892150
+	sym = CanardController_4294892110
+	sym = CanardController_4294892070
+	sym = CanardController_4294891990
+	srfN = srfAttach, fuelTank_4294893662
+}
+PART
+{
+	part = CanardController_4294891990
+	pos = 2.836322,7.7065,1.719174
+	rot = 3.558523E-16,-0.9659262,2.441762E-17,-0.2588191
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 34
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294891950
+	sym = CanardController_4294892150
+	sym = CanardController_4294892110
+	sym = CanardController_4294892070
+	sym = CanardController_4294892030
+	srfN = srfAttach, fuelTank_4294893634
+}
+PART
+{
+	part = CanardController_4294891950
+	pos = 2.836321,7.7065,-1.640307
+	rot = 3.734079E-16,0.9659261,-6.781523E-17,-0.2588192
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 35
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294892150
+	sym = CanardController_4294892110
+	sym = CanardController_4294892070
+	sym = CanardController_4294892030
+	sym = CanardController_4294891990
+	srfN = srfAttach, fuelTank_4294893606
+}
+PART
+{
+	part = strutConnector_4294891910
+	pos = 0.3565961,10.73175,-2.576638
+	rot = -1.795897E-07,0.965926,-6.096252E-08,0.2588193
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 42
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_128; pos: -1.880295,0.1513283,0.1457875; dir: -0.9938136,0.07998281,0.07705344
+	sym = strutConnector_4294891630
+	sym = strutConnector_4294891854
+	sym = strutConnector_4294891798
+	sym = strutConnector_4294891742
+	sym = strutConnector_4294891686
+	srfN = srfAttach, fuelTank_4294895654
+}
+PART
+{
+	part = strutConnector_4294891854
+	pos = -2.553491,10.73175,0.9753652
+	rot = -1.4259E-07,0.7071069,1.25048E-07,-0.7071068
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 43
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_36; pos: -1.880294,0.1513274,0.1457842; dir: -0.9938136,0.07998281,0.07705344
+	sym = strutConnector_4294891630
+	sym = strutConnector_4294891910
+	sym = strutConnector_4294891798
+	sym = strutConnector_4294891742
+	sym = strutConnector_4294891686
+	srfN = srfAttach, fuelTank_4294895626
+}
+PART
+{
+	part = strutConnector_4294891798
+	pos = 2.407348,10.73175,-0.8964984
+	rot = -1.25048E-07,0.7071068,-1.4259E-07,0.7071071
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 44
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_105; pos: -1.880298,0.1513283,0.1457879; dir: -0.9938136,0.07998281,0.07705344
+	sym = strutConnector_4294891630
+	sym = strutConnector_4294891910
+	sym = strutConnector_4294891854
+	sym = strutConnector_4294891742
+	sym = strutConnector_4294891686
+	srfN = srfAttach, fuelTank_4294895598
+}
+PART
+{
+	part = strutConnector_4294891742
+	pos = -0.502742,10.73175,2.655507
+	rot = -6.096252E-08,0.2588192,1.795897E-07,-0.9659258
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 45
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_59; pos: -1.880296,0.1513274,0.145785; dir: -0.9938136,0.07998281,0.07705344
+	sym = strutConnector_4294891630
+	sym = strutConnector_4294891910
+	sym = strutConnector_4294891854
+	sym = strutConnector_4294891798
+	sym = strutConnector_4294891686
+	srfN = srfAttach, fuelTank_4294895570
+}
+PART
+{
+	part = strutConnector_4294891686
+	pos = 1.977678,10.73175,1.719576
+	rot = 3.699977E-08,-0.2588188,1.860105E-07,-0.9659261
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 46
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_82; pos: -1.880295,0.1513283,0.1457862; dir: -0.9938136,0.07998281,0.07705344
+	sym = strutConnector_4294891630
+	sym = strutConnector_4294891910
+	sym = strutConnector_4294891854
+	sym = strutConnector_4294891798
+	sym = strutConnector_4294891742
+	srfN = srfAttach, fuelTank_4294895542
+}
+PART
+{
+	part = strutConnector_4294891630
+	pos = -2.123823,10.73175,-1.640706
+	rot = -1.860105E-07,0.9659259,3.699981E-08,-0.2588191
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 47
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank_13; pos: -1.880295,0.1513274,0.1457868; dir: -0.9938136,0.07998281,0.07705344
+	sym = strutConnector_4294891910
+	sym = strutConnector_4294891854
+	sym = strutConnector_4294891798
+	sym = strutConnector_4294891742
+	sym = strutConnector_4294891686
+	srfN = srfAttach, fuelTank_4294895514
+}
